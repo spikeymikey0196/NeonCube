@@ -727,6 +727,17 @@ namespace game
         }
     }
 
+
+    int gchealthproto(gameent *d){
+        return d->health;
+    }
+
+    void getclienthealth() {
+        conoutf("%d", gchealthproto(player1));
+    }
+
+    COMMAND(getclienthealth, "");
+
     void gameplayhud(int w, int h)
     {
         pushhudmatrix();
