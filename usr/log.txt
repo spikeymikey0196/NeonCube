@@ -1,0 +1,205 @@
+init: sdl
+init: net
+init: game
+init: video
+init: gl
+Renderer: GeForce GT 630M/PCIe/SSE2 (NVIDIA Corporation)
+Driver: 4.0.0
+GLSL: 4.00 NVIDIA via Cg compiler
+Rendering using the OpenGL GLSL shader path.
+init: console
+init: world
+init: sound
+init: cfg
+init: render
+init: mainloop
+your name is: AlmightyTester
+attempting to connect to 158.129.0.38:42000
+connected to server
+could not read map media\map\heatwave.ogz
+game mode is Edit
+Cooperative Editing:
+Edit maps with multiple players simultaneously.
+mastermode is veto (1)
+illegal network message (type)
+disconnected
+attempting to connect to 130.255.72.89:2222
+connected to server
+game mode is Edit
+Cooperative Editing:
+Edit maps with multiple players simultaneously.
+mastermode is veto (1)
+illegal network message (type)
+disconnected
+attempting to connect to 5.62.97.152:41000
+connected to server
+read map media\map\complex.ogz (0.0 seconds)
+Urban Complex by Nieb & Dacker
+game mode is rDM
+Railgun Deathmatch:
+Frag everyone with railguns to score points.
+AlmightyTester claimed master
+failed to create or assign bot
+loaded 366 waypoints from media\map\complex.wpt
+join: bot [135]
+join: bot [134]
+join: bot [133]
+join: bot [132]
+join: bot [131]
+join: bot [130]
+join: bot [129]
+join: bot [128]
+you fragged bot [131]
+bot [135] fragged bot [134]
+you fragged bot [130]
+bot [131] fragged bot [135]
+bot [134] fragged bot [131]
+you fragged bot [130]
+bot [128] fragged bot [132]
+bot [128] fragged bot [135]
+bot [130] fragged bot [131]
+you fragged bot [134]
+you got fragged by bot [133]
+bot [129] fragged bot [133]
+you fragged bot [129]
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+bot [134] fragged bot [130]
+bot [132] fragged bot [128]
+bot [133] fragged bot [134]
+leave: bot [135]
+leave: bot [134]
+leave: bot [133]
+leave: bot [132]
+leave: bot [131]
+leave: bot [130]
+leave: bot [129]
+leave: bot [128]
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+join: bot [135]
+join: bot [134]
+join: bot [133]
+join: bot [132]
+join: bot [131]
+join: bot [130]
+join: bot [129]
+join: bot [128]
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+failed to create or assign bot
+bot [133] fragged bot [129]
+bot [135] fragged bot [132]
+attempting to disconnect...
+disconnected
+attempting to connect to 130.255.72.89:2222
+connected to server
+game mode is Edit
+Cooperative Editing:
+Edit maps with multiple players simultaneously.
+mastermode is veto (1)
+illegal network message (type)
+disconnected
