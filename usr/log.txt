@@ -13,3 +13,8 @@ init: sound
 init: cfg
 init: render
 init: mainloop
+read map media\map\ot.ogz (0.0 seconds)
+game mode is Edit
+Cooperative Editing:
+Edit maps with multiple players simultaneously.
+you suicided!
