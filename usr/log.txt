@@ -18,6 +18,3 @@ Urban Complex by Nieb & Dacker
 game mode is Edit
 Cooperative Editing:
 Edit maps with multiple players simultaneously.
-100 100
-84 100
-unknown command: exit

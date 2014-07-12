@@ -651,15 +651,19 @@ namespace game
         {
             if(d==player1)
             {
-                d->ammo[gun]--;
                 msgsound(S_NOAMMO, d);
                 d->gunwait = 600;
                 d->lastattack = -1;
                 weaponswitch(d);
             }
             return;
+        } else {
+            if(d==player1)
+            {
+                d->ammo[gun] -= attacks[atk].use;
+                d->ammo[gun]--;
+            }
         }
-        d->ammo[gun] -= attacks[atk].use;
 
         vec from = d->o, to = targ, dir = vec(to).sub(from).normalize();
         float dist = to.dist(from);

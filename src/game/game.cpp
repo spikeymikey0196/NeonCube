@@ -2,7 +2,7 @@
 
 namespace game
 {
-    int thumpolduimode = 0;
+    int thumpolduimode = 2;
     bool intermission = false;
     int maptime = 0, maprealtime = 0, maplimit = -1;
     int lasthit = 0, lastspawnattempt = 0;
@@ -724,10 +724,18 @@ namespace game
                 drawicon(0, HICON_X, HICON_Y);
                 drawicon(1, HICON_X + 2*HICON_STEP, HICON_Y);
             }
+            if (thumpolduimode == 2) {
+
+            }
         }
     }
 
     ICOMMAND(clienthealth, "", (), intret(player1->health));
+    ICOMMAND(clientcrouching, "", (), intret(player1->crouching));
+    ICOMMAND(clientjumping, "", (), intret(player1->jumping));
+    ICOMMAND(clientinwater, "", (), intret(player1->inwater));
+    ICOMMAND(clientfrags, "", (), intret(player1->frags));
+    ICOMMAND(clientdeaths, "", (), intret(player1->deaths));
     ICOMMAND(clientammo, "", (), intret(player1->ammo[player1->gunselect]));
 
     void gameplayhud(int w, int h)

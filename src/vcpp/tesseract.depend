@@ -2744,7 +2744,7 @@
 
 1404996216 h:\thump\thump\src\engine\model.h
 
-1405109450 source:h:\thump\thump\src\game\game.h
+1405179464 source:h:\thump\thump\src\game\game.h
 	"cube.h"
 	"ai.h"
 
@@ -2986,7 +2986,7 @@
 1405077588 source:h:\thump\thump\src\game\ai.cpp
 	"game.h"
 
-1405109450 h:\thump\thump\src\game\game.h
+1405179464 h:\thump\thump\src\game\game.h
 	"cube.h"
 	"ai.h"
 
@@ -3000,7 +3000,7 @@
 1404996218 source:h:\thump\thump\src\game\entities.cpp
 	"game.h"
 
-1405070958 source:h:\thump\thump\src\game\game.cpp
+1405167402 source:h:\thump\thump\src\game\game.cpp
 	"game.h"
 
 1405021816 source:h:\thump\thump\src\game\render.cpp
@@ -3023,7 +3023,7 @@
 1404996218 source:h:\thump\thump\src\game\waypoint.cpp
 	"game.h"
 
-1405094938 source:h:\thump\thump\src\game\weapon.cpp
+1405169243 source:h:\thump\thump\src\game\weapon.cpp
 	"game.h"
 
 1404996218 source:h:\thump\thump\src\shared\crypto.cpp

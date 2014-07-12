@@ -83,7 +83,7 @@ struct gameentity : extentity
 
 enum { GUN_RAIL = 0, GUN_PULSE, GUN_MACH, NUMGUNS };
 enum { ACT_IDLE = 0, ACT_SHOOT, ACT_MELEE, NUMACTS };
-enum { ATK_RAIL_SHOOT = 0, ATK_RAIL_MELEE, ATK_PULSE_SHOOT, ATK_PULSE_MELEE, NUMATKS };
+enum { ATK_RAIL_SHOOT = 0, ATK_RAIL_MELEE, ATK_PULSE_SHOOT, ATK_PULSE_MELEE, ATK_MACH_SHOOT, ATK_MACH_MELEE, NUMATKS };
 
 #define validgun(n) ((n) >= 0 && (n) < NUMGUNS)
 #define validact(n) ((n) >= 0 && (n) < NUMACTS)
@@ -156,7 +156,7 @@ enum
     S_JUMP = 0, S_LAND,
     S_SPLASHIN, S_SPLASHOUT, S_BURN,
     S_ITEMSPAWN, S_TELEPORT, S_JUMPPAD,
-    S_MELEE, S_PULSE1, S_PULSE2, S_PULSEEXPLODE, S_RAIL1, S_RAIL2,
+    S_MELEE, S_PULSE1, S_PULSE2, S_PULSEEXPLODE, S_RAIL1, S_RAIL2, S_MACH,
     S_WEAPLOAD, S_NOAMMO, S_HIT,
     S_PAIN1, S_PAIN2, S_DIE1, S_DIE2,
 
@@ -231,7 +231,7 @@ static const int msgsizes[] =               // size inclusive message token, 0 f
 #define TESSERACT_SERVER_PORT 42000
 #define TESSERACT_LANINFO_PORT 41998
 #define TESSERACT_MASTER_PORT 41999
-#define PROTOCOL_VERSION 1              // bump when protocol changes
+#define PROTOCOL_VERSION 2              // bump when protocol changes
 #define DEMO_VERSION 1                  // bump when demo format changes
 #define DEMO_MAGIC "TESSERACT_DEMO\0\0"
 
@@ -269,20 +269,21 @@ static struct itemstat { int add, max, sound; const char *name; int icon, info; 
 #define EXP_SELFPUSH 2.5f
 #define EXP_DISTSCALE 0.5f
 
-static const struct attackinfo { int gun, action, anim, vwepanim, hudanim, sound, hudsound, attackdelay, damage, spread, margin, projspeed, kickamount, range, rays, hitpush, exprad, ttl, use; } attacks[NUMATKS] =
+static const struct attackinfo { int gun, action, anim, vwepanim, hudanim, sound, hudsound, attackdelay, damage, spread, margin, projspeed, kickamount, range, rays, hitpush, exprad, ttl, use; } attacks[6] =
 {
-    { GUN_RAIL,  ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_RAIL1,  S_RAIL2, 1300, 25, 0, 0,    0, 30, 2048, 1, 5000,  0, 0, 0 },
+    { GUN_RAIL,  ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_RAIL1,  S_RAIL2, 1300, 85, 0, 0,    0, 30, 2048, 1, 5000,  0, 0, 0 },
     { GUN_RAIL,  ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
-    { GUN_PULSE, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_PULSE1, S_PULSE2, 700, 40, 0, 1, 1000, 30, 1024, 1, 5000, 15, 0, 0 },
-    { GUN_PULSE, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 }//,
-    //{ GUN_MACH, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_RAIL1,  S_RAIL2,  100, 5, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 }
+    { GUN_PULSE, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_PULSE1, S_PULSE2, 1000, 1000, 0, 1, 1000, 30, 1024, 1, 5000, 15, 0, 0 },
+    { GUN_PULSE, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
+    { GUN_MACH, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_MACH,  S_MACH,  100, 5, 1000, 60,    0,  0,   14, 1,    0,  0, 0, 0 },
+    { GUN_MACH, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0}
 };
 
 static const struct guninfo { const char *name, *file, *vwep; int attacks[NUMACTS]; } guns[NUMGUNS] =
 {
     { "railgun", "railgun", "worldgun/railgun", { -1, ATK_RAIL_SHOOT, ATK_RAIL_MELEE }, },
     { "pulse rifle", "pulserifle", "worldgun/pulserifle", { -1, ATK_PULSE_SHOOT, ATK_PULSE_MELEE }, },
-    { "chaingun", "railgun", "worldgun/railgun", { -1, ATK_RAIL_SHOOT, ATK_RAIL_MELEE } }
+    { "chaingun", "chaingun", "worldgun/chaingun", { -1, ATK_MACH_SHOOT, ATK_MACH_MELEE } }
 };
 
 #include "ai.h"
