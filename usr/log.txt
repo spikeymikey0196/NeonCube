@@ -13,8 +13,15 @@ init: sound
 init: cfg
 init: render
 init: mainloop
-read map media\map\complex.ogz (0.0 seconds)
-Urban Complex by Nieb & Dacker
+read map media\map\ot.ogz (0.0 seconds)
 game mode is Edit
 Cooperative Editing:
 Edit maps with multiple players simultaneously.
+read map media\map\ot.ogz (0.0 seconds)
+game mode is rDM
+Railgun Deathmatch:
+Frag everyone with railguns to score points.
+read map media\map\ot.ogz (0.0 seconds)
+game mode is pDM
+Pulse Rifle Deathmatch:
+Frag everyone with pulse rifles to score points.
