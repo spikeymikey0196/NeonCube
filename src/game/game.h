@@ -118,7 +118,8 @@ static struct gamemodeinfo
     { "ptdm", "pTDM", M_TEAM | M_PULSE, "Pulse Rifle Team Deathmatch:\nFrag \fs\f3the enemy team\fr with pulse rifles to score points for \fs\f1your team\fr." },
     { "rctf", "rCTF", M_CTF | M_TEAM | M_RAIL, "Railgun Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
     { "pctf", "pCTF", M_CTF | M_TEAM | M_PULSE, "Pulse Rifle Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
-    { "dm", "DM", M_LOBBY | M_RAIL | M_PULSE, "Deathmatch: frag everything in sight." },
+    { "dm", "DM", M_LOBBY | M_RAIL | M_PULSE | M_MACH, "Deathmatch: frag everything in sight." },
+    { "tdm", "TDM", M_TEAM | M_RAIL | M_PULSE | M_MACH, "Team Deathmatch: frag everything in sight with your team." },
 };
 
 #define STARTGAMEMODE (-1)
@@ -269,11 +270,11 @@ static struct itemstat { int add, max, sound; const char *name; int icon, info; 
 #define EXP_SELFPUSH 2.5f
 #define EXP_DISTSCALE 0.5f
 
-static const struct attackinfo { int gun, action, anim, vwepanim, hudanim, sound, hudsound, attackdelay, damage, spread, margin, projspeed, kickamount, range, rays, hitpush, exprad, ttl, use; } attacks[6] =
+static const struct attackinfo { int gun, action, anim, vwepanim, hudanim, sound, hudsound, attackdelay, damage, spread, margin, projspeed, kickamount, range, rays, hitpush, exprad, ttl, use; } attacks[NUMATKS] =
 {
     { GUN_RAIL,  ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_RAIL1,  S_RAIL2, 1300, 85, 0, 0,    0, 30, 2048, 1, 5000,  0, 0, 0 },
     { GUN_RAIL,  ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
-    { GUN_PULSE, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_PULSE1, S_PULSE2, 1000, 1000, 0, 1, 1000, 30, 1024, 1, 5000, 15, 0, 0 },
+    { GUN_PULSE, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_PULSE1, S_PULSE2, 1000, 100, 0, 1, 1000, 30, 1024, 1, 5000, 15, 0, 0 },
     { GUN_PULSE, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
     { GUN_MACH, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_MACH,  S_MACH,  100, 5, 1000, 60,    0,  0,   14, 1,    0,  0, 0, 0 },
     { GUN_MACH, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0}
@@ -321,21 +322,29 @@ struct gamestate
         {
             gunselect = GUN_RAIL;
             ammo[GUN_RAIL] = 100;
+            ammo[GUN_PULSE] = 0;
+            ammo[GUN_MACH] = 0;
         }
         else if(m_pulse)
         {
             gunselect = GUN_PULSE;
-            ammo[GUN_PULSE] = 1;
+            ammo[GUN_RAIL] = 0;
+            ammo[GUN_PULSE] = 100;
+            ammo[GUN_MACH] = 0;
         }
         else if(m_mach)
         {
-            gunselect = GUN_PULSE;
+            gunselect = GUN_MACH;
+            ammo[GUN_RAIL] = 0;
+            ammo[GUN_PULSE] = 0;
             ammo[GUN_MACH] = 200;
         }
         else if(m_edit)
         {
             gunselect = GUN_RAIL;
-            loopi(NUMGUNS) ammo[i] = 100;
+            ammo[GUN_RAIL] = 100;
+            ammo[GUN_PULSE] = 1;
+            ammo[GUN_MACH] = 200;
         }
     }
 
