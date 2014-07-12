@@ -727,16 +727,8 @@ namespace game
         }
     }
 
-
-    int gchealthproto(gameent *d){
-        return d->health;
-    }
-
-    void getclienthealth() {
-        conoutf("%d", gchealthproto(player1));
-    }
-
-    COMMAND(getclienthealth, "");
+    ICOMMAND(clienthealth, "", (), intret(player1->health));
+    ICOMMAND(clientammo, "", (), intret(player1->ammo[player1->gunselect]));
 
     void gameplayhud(int w, int h)
     {
