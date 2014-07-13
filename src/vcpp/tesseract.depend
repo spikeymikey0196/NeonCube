@@ -2291,7 +2291,7 @@
 	"bih.h"
 	"model.h"
 
-1405094046 source:h:\thump\thump\src\engine\engine.h
+1405188968 source:h:\thump\thump\src\engine\engine.h
 	"cube.h"
 	"world.h"
 	"octa.h"
@@ -2732,19 +2732,19 @@
 
 1404996218 h:\thump\thump\src\shared\igame.h
 
-1404996216 h:\thump\thump\src\engine\world.h
+1405188946 h:\thump\thump\src\engine\world.h
 
-1405188257 h:\thump\thump\src\engine\octa.h
+1405188945 h:\thump\thump\src\engine\octa.h
 
-1404996216 h:\thump\thump\src\engine\light.h
+1405188944 h:\thump\thump\src\engine\light.h
 
-1405188263 h:\thump\thump\src\engine\texture.h
+1405188945 h:\thump\thump\src\engine\texture.h
 
-1404996216 h:\thump\thump\src\engine\bih.h
+1405188946 h:\thump\thump\src\engine\bih.h
 
-1404996216 h:\thump\thump\src\engine\model.h
+1405188945 h:\thump\thump\src\engine\model.h
 
-1405187504 source:h:\thump\thump\src\game\game.h
+1405191804 source:h:\thump\thump\src\game\game.h
 	"cube.h"
 	"ai.h"
 
@@ -2779,10 +2779,10 @@
 	"iengine.h"
 	"igame.h"
 
-1404996216 source:h:\thump\thump\src\engine\aa.cpp
+1405188946 source:h:\thump\thump\src\engine\aa.cpp
 	"engine.h"
 
-1405188327 h:\thump\thump\src\engine\engine.h
+1405188968 h:\thump\thump\src\engine\engine.h
 	"cube.h"
 	"world.h"
 	"octa.h"
@@ -2791,40 +2791,40 @@
 	"bih.h"
 	"model.h"
 
-1404996216 source:h:\thump\thump\src\engine\bih.cpp
+1405188946 source:h:\thump\thump\src\engine\bih.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\blend.cpp
+1405188946 source:h:\thump\thump\src\engine\blend.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\client.cpp
+1405188944 source:h:\thump\thump\src\engine\client.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\command.cpp
+1405188944 source:h:\thump\thump\src\engine\command.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\console.cpp
+1405188944 source:h:\thump\thump\src\engine\console.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\dynlight.cpp
+1405188944 source:h:\thump\thump\src\engine\dynlight.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\grass.cpp
+1405188944 source:h:\thump\thump\src\engine\grass.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\light.cpp
+1405188944 source:h:\thump\thump\src\engine\light.cpp
 	"engine.h"
 
-1405073238 source:h:\thump\thump\src\engine\main.cpp
+1405188944 source:h:\thump\thump\src\engine\main.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\material.cpp
+1405188944 source:h:\thump\thump\src\engine\material.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\menus.cpp
+1405188945 source:h:\thump\thump\src\engine\menus.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\movie.cpp
+1405188945 source:h:\thump\thump\src\engine\movie.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
@@ -2838,38 +2838,38 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996216 source:h:\thump\thump\src\engine\normal.cpp
+1405188945 source:h:\thump\thump\src\engine\normal.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\octa.cpp
+1405188945 source:h:\thump\thump\src\engine\octa.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\octaedit.cpp
+1405188945 source:h:\thump\thump\src\engine\octaedit.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\octarender.cpp
+1405188945 source:h:\thump\thump\src\engine\octarender.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\ovr.cpp
+1405188945 source:h:\thump\thump\src\engine\ovr.cpp
 	"engine.h"
 	"OVR.h"
 
-1404996216 source:h:\thump\thump\src\engine\physics.cpp
+1405188945 source:h:\thump\thump\src\engine\physics.cpp
 	"engine.h"
 	"mpr.h"
 
-1404996216 h:\thump\thump\src\engine\mpr.h
+1405188945 h:\thump\thump\src\engine\mpr.h
 
-1404996216 source:h:\thump\thump\src\engine\pvs.cpp
+1405188945 source:h:\thump\thump\src\engine\pvs.cpp
 	"engine.h"
 
-1405023714 source:h:\thump\thump\src\engine\rendergl.cpp
+1405188945 source:h:\thump\thump\src\engine\rendergl.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\renderlights.cpp
+1405188945 source:h:\thump\thump\src\engine\renderlights.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\rendermodel.cpp
+1405188945 source:h:\thump\thump\src\engine\rendermodel.cpp
 	"engine.h"
 	"ragdoll.h"
 	"animmodel.h"
@@ -2883,60 +2883,60 @@
 	"smd.h"
 	"iqm.h"
 
-1404996216 h:\thump\thump\src\engine\ragdoll.h
+1405188945 h:\thump\thump\src\engine\ragdoll.h
 
-1405188213 h:\thump\thump\src\engine\animmodel.h
+1405188946 h:\thump\thump\src\engine\animmodel.h
 
-1404996216 h:\thump\thump\src\engine\vertmodel.h
+1405188945 h:\thump\thump\src\engine\vertmodel.h
 
-1404996216 h:\thump\thump\src\engine\skelmodel.h
+1405188945 h:\thump\thump\src\engine\skelmodel.h
 
-1404996216 h:\thump\thump\src\engine\hitzone.h
+1405188944 h:\thump\thump\src\engine\hitzone.h
 
-1404996216 h:\thump\thump\src\engine\md2.h
+1405188944 h:\thump\thump\src\engine\md2.h
 
-1404996216 h:\thump\thump\src\engine\md3.h
+1405188945 h:\thump\thump\src\engine\md3.h
 
-1404996216 h:\thump\thump\src\engine\md5.h
+1405188945 h:\thump\thump\src\engine\md5.h
 
-1404996216 h:\thump\thump\src\engine\obj.h
+1405188945 h:\thump\thump\src\engine\obj.h
 
-1404996216 h:\thump\thump\src\engine\smd.h
+1405188945 h:\thump\thump\src\engine\smd.h
 
-1404996216 h:\thump\thump\src\engine\iqm.h
+1405188944 h:\thump\thump\src\engine\iqm.h
 
-1404996216 source:h:\thump\thump\src\engine\renderparticles.cpp
+1405188945 source:h:\thump\thump\src\engine\renderparticles.cpp
 	"engine.h"
 	"explosion.h"
 	"lensflare.h"
 	"lightning.h"
 
-1404996216 h:\thump\thump\src\engine\explosion.h
+1405188944 h:\thump\thump\src\engine\explosion.h
 
-1404996216 h:\thump\thump\src\engine\lensflare.h
+1405188944 h:\thump\thump\src\engine\lensflare.h
 
-1404996216 h:\thump\thump\src\engine\lightning.h
+1405188944 h:\thump\thump\src\engine\lightning.h
 
-1404996216 source:h:\thump\thump\src\engine\rendersky.cpp
+1405188945 source:h:\thump\thump\src\engine\rendersky.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\rendertext.cpp
+1405188945 source:h:\thump\thump\src\engine\rendertext.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\renderva.cpp
+1405188945 source:h:\thump\thump\src\engine\renderva.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\server.cpp
+1405188945 source:h:\thump\thump\src\engine\server.cpp
 	"engine.h"
 	"shellapi.h"
 
-1404996216 source:h:\thump\thump\src\engine\serverbrowser.cpp
+1405188945 source:h:\thump\thump\src\engine\serverbrowser.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\shader.cpp
+1405188945 source:h:\thump\thump\src\engine\shader.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\sound.cpp
+1405188945 source:h:\thump\thump\src\engine\sound.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
@@ -2948,10 +2948,10 @@
 	<fcntl.h>
 	<wchar.h>
 
-1404996216 source:h:\thump\thump\src\engine\stain.cpp
+1405188945 source:h:\thump\thump\src\engine\stain.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\texture.cpp
+1405188945 source:h:\thump\thump\src\engine\texture.cpp
 	"engine.h"
 	"SDL2_image/SDL_image.h"
 	"SDL_image.h"
@@ -2966,38 +2966,38 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996216 h:\thump\thump\src\engine\scale.h
+1405188945 h:\thump\thump\src\engine\scale.h
 
-1404996216 source:h:\thump\thump\src\engine\ui.cpp
+1405188945 source:h:\thump\thump\src\engine\ui.cpp
 	"engine.h"
 	"textedit.h"
 
-1404996216 h:\thump\thump\src\engine\textedit.h
+1405188945 h:\thump\thump\src\engine\textedit.h
 
-1404996216 source:h:\thump\thump\src\engine\water.cpp
+1405188946 source:h:\thump\thump\src\engine\water.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\world.cpp
+1405188946 source:h:\thump\thump\src\engine\world.cpp
 	"engine.h"
 
-1404996216 source:h:\thump\thump\src\engine\worldio.cpp
+1405188946 source:h:\thump\thump\src\engine\worldio.cpp
 	"engine.h"
 
 1405077588 source:h:\thump\thump\src\game\ai.cpp
 	"game.h"
 
-1405187504 h:\thump\thump\src\game\game.h
+1405191804 h:\thump\thump\src\game\game.h
 	"cube.h"
 	"ai.h"
 
-1405077670 source:h:\thump\thump\src\game\client.cpp
+1405242735 source:h:\thump\thump\src\game\client.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 
 1404996218 h:\thump\thump\src\game\ctf.h
 
-1404996218 source:h:\thump\thump\src\game\entities.cpp
+1405242661 source:h:\thump\thump\src\game\entities.cpp
 	"game.h"
 
 1405167402 source:h:\thump\thump\src\game\game.cpp

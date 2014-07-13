@@ -70,7 +70,8 @@ enum                            // static entity types
     TELEPORT,                   // attr1 = idx, attr2 = model, attr3 = tag
     TELEDEST,                   // attr1 = angle, attr2 = idx
     JUMPPAD,                    // attr1 = zpush, attr2 = ypush, attr3 = xpush
-    FLAG,                       // attr1 = angle, attr2 = team
+    FLAG,                       // attr1 = angle, attr2 = team7
+    HEALTH,
     MAXENTTYPES,
 
     I_FIRST = 0,
@@ -101,6 +102,7 @@ enum
     M_RAIL       = 1<<7,
     M_PULSE      = 1<<8,
     M_MACH       = 1<<9,
+    M_ALL         = 1<<10,
 };
 
 static struct gamemodeinfo
@@ -118,8 +120,8 @@ static struct gamemodeinfo
     { "ptdm", "pTDM", M_TEAM | M_PULSE, "Pulse Rifle Team Deathmatch:\nFrag \fs\f3the enemy team\fr with pulse rifles to score points for \fs\f1your team\fr." },
     { "rctf", "rCTF", M_CTF | M_TEAM | M_RAIL, "Railgun Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
     { "pctf", "pCTF", M_CTF | M_TEAM | M_PULSE, "Pulse Rifle Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
-    { "dm", "DM", M_LOBBY | M_RAIL | M_PULSE | M_MACH, "Deathmatch: frag everything in sight." },
-    { "tdm", "TDM", M_TEAM | M_RAIL | M_PULSE | M_MACH, "Team Deathmatch: frag everything in sight with your team." },
+    { "dm", "DM", M_LOBBY | M_ALL, "Deathmatch: frag everything in sight." },
+    { "tdm", "TDM", M_TEAM | M_ALL, "Team Deathmatch: frag everything in sight with your team." },
 };
 
 #define STARTGAMEMODE (-1)
@@ -137,6 +139,7 @@ static struct gamemodeinfo
 #define m_rail         (m_check(gamemode, M_RAIL))
 #define m_pulse        (m_check(gamemode, M_PULSE))
 #define m_mach         (m_check(gamemode, M_MACH))
+#define m_all         (m_check(gamemode, M_ALL))
 
 #define m_demo         (m_check(gamemode, M_DEMO))
 #define m_edit         (m_check(gamemode, M_EDIT))
@@ -337,6 +340,13 @@ struct gamestate
             gunselect = GUN_MACH;
             ammo[GUN_RAIL] = 0;
             ammo[GUN_PULSE] = 0;
+            ammo[GUN_MACH] = 200;
+        }
+        else if(m_all)
+        {
+            gunselect = GUN_RAIL;
+            ammo[GUN_RAIL] = 100;
+            ammo[GUN_PULSE] = 1;
             ammo[GUN_MACH] = 200;
         }
         else if(m_edit)
