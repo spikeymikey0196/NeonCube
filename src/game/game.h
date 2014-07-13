@@ -275,11 +275,11 @@ static struct itemstat { int add, max, sound; const char *name; int icon, info; 
 
 static const struct attackinfo { int gun, action, anim, vwepanim, hudanim, sound, hudsound, attackdelay, damage, spread, margin, projspeed, kickamount, range, rays, hitpush, exprad, ttl, use; } attacks[NUMATKS] =
 {
-    { GUN_RAIL,  ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_RAIL1,  S_RAIL2, 1300, 85, 0, 0,    0, 30, 2048, 1, 5000,  0, 0, 0 },
+    { GUN_RAIL,  ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_RAIL1,  S_RAIL2, 1300, 85, 0, 0,    0, 30, 2048, 1, 25,  0, 0, 0 },
     { GUN_RAIL,  ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
-    { GUN_PULSE, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_PULSE1, S_PULSE2, 1000, 100, 0, 1, 1000, 30, 1024, 1, 5000, 15, 0, 0 },
+    { GUN_PULSE, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_PULSE1, S_PULSE2, 1000, 100, 0, 1, 1000, 30, 1024, 1, 25, 15, 0, 0 },
     { GUN_PULSE, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
-    { GUN_MACH, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_MACH,  S_MACH,  100, 5, 1000, 60,    0,  0,   14, 1,    0,  0, 0, 0 },
+    { GUN_MACH, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_MACH,  S_MACH,  100, 5, 10, 10,    0, 30, 2048, 1, 25,  0, 0, 0 },
     { GUN_MACH, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0}
 };
 

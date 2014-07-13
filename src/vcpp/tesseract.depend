@@ -2744,7 +2744,7 @@
 
 1405188945 h:\thump\thump\src\engine\model.h
 
-1405191804 source:h:\thump\thump\src\game\game.h
+1405244269 source:h:\thump\thump\src\game\game.h
 	"cube.h"
 	"ai.h"
 
@@ -2986,11 +2986,11 @@
 1405077588 source:h:\thump\thump\src\game\ai.cpp
 	"game.h"
 
-1405244269 h:\thump\thump\src\game\game.h
+1405250543 h:\thump\thump\src\game\game.h
 	"cube.h"
 	"ai.h"
 
-1405242735 source:h:\thump\thump\src\game\client.cpp
+1405244223 source:h:\thump\thump\src\game\client.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
