@@ -13,8 +13,6 @@ init: sound
 init: cfg
 init: render
 init: mainloop
-read map media\map\complex.ogz (0.0 seconds)
-Urban Complex by Nieb & Dacker
 game mode is Edit
 Cooperative Editing:
 Edit maps with multiple players simultaneously.

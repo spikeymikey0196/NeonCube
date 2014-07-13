@@ -122,6 +122,7 @@ static struct gamemodeinfo
     { "pctf", "pCTF", M_CTF | M_TEAM | M_PULSE, "Pulse Rifle Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
     { "dm", "DM", M_LOBBY | M_ALL, "Deathmatch: frag everything in sight." },
     { "tdm", "TDM", M_TEAM | M_ALL, "Team Deathmatch: frag everything in sight with your team." },
+    //{ "ctf", "CTF", M_CTF | M_ALL, "Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
 };
 
 #define STARTGAMEMODE (-1)
