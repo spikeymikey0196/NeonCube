@@ -1604,8 +1604,6 @@ namespace game
 
             case N_ITEMACC:            // server acknowledges that I picked up this item
             {
-                int before = d->health;
-                d->health = before + 10;
                 int i = getint(p), cn = getint(p);
                 gameent *d = getclient(cn);
                 entities::pickupeffects(i, d);
