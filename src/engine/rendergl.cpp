@@ -1344,7 +1344,7 @@ int farplane;
 VARP(zoominvel, 0, 40, 500);
 VARP(zoomoutvel, 0, 50, 500);
 VARP(zoomfov, 10, 42, 60);
-VARP(fov, 10, 100, 150);
+VARP(fov, 10, 100, 1500);
 VAR(avatarzoomfov, 1, 1, 1);
 VAR(avatarfov, 10, 40, 100);
 FVAR(avatardepth, 0, 0.8f, 1);
