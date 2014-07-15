@@ -13,7 +13,3 @@ init: sound
 init: cfg
 init: render
 init: mainloop
-read map media\map\acidic.ogz (0.0 seconds)
-game mode is Edit
-Cooperative Editing:
-Edit maps with multiple players simultaneously.
