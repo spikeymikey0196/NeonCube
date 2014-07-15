@@ -10,7 +10,7 @@ As of the 13th July, THUMP adds to Tesseract:
 * a new weapon; a machine gun.
 * a deathmatch and team deathmatch mode
 * finite health and ammo
-* and a cubescript based HUD (meaning it's very easy to write your own HUD)
+* and cubescript aliases for health, ammo, frags, deaths and more (allowing you to create softcoded HUDs)
 
 New maps, models and textures are also to follow.
 
