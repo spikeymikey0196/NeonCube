@@ -17,8 +17,3 @@ read map media\map\acidic.ogz (0.0 seconds)
 game mode is Edit
 Cooperative Editing:
 Edit maps with multiple players simultaneously.
-valid range for fov is 10..150
-valid range for fov is 10..150
-valid range for fov is 10..150
-unknown command: maxfov
-unknown command: fob

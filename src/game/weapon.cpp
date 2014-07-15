@@ -84,8 +84,8 @@ namespace game
     }
     ICOMMAND(cycleweapon, "V", (tagval *args, int numargs),
     {
-         int numguns = min(numargs, 4);
-         int guns[4];
+         int numguns = min(numargs, 3);
+         int guns[3];
          loopi(numguns) guns[i] = getweapon(args[i].getstr());
          cycleweapon(numguns, guns);
     });
@@ -96,7 +96,6 @@ namespace game
         int s = d->gunselect;
         if(s!=GUN_PULSE && d->ammo[GUN_PULSE])     s = GUN_PULSE;
         else if(s!=GUN_RAIL && d->ammo[GUN_RAIL])  s = GUN_RAIL;
-        else if(s!=GUN_MACH && d->ammo[GUN_MACH])  s = GUN_MACH;
         gunselect(s, d);
     }
 
@@ -647,6 +646,7 @@ namespace game
         int gun = d->gunselect, act = d->attacking, atk = guns[gun].attacks[act];
         d->lastaction = lastmillis;
         d->lastattack = atk;
+
         if(!d->ammo[gun])
         {
             if(d==player1)

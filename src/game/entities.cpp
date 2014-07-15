@@ -22,24 +22,25 @@ namespace entities
     bool mayattach(extentity &e) { return false; }
     bool attachent(extentity &e, extentity &a) { return false; }
 
-    struct itemstats { int add, max, sound; } itemstats[] =
-    {
-         25,   100, S_JUMPPAD,
-    };
-
-
     const char *itemname(int i)
-        {
-            return NULL;
-        }
+    {
+        return NULL;
+#if 0
+        int t = ents[i]->type;
+        if(!validitem(t)) return NULL;
+        return itemstats[t-I_FIRST].name;
+#endif
+    }
 
-        int itemicon(int i)
-        {
-            return -1;
-        }
-
-
-
+    int itemicon(int i)
+    {
+        return -1;
+#if 0
+        int t = ents[i]->type;
+        if(!validitem(t)) return -1;
+        return itemstats[t-I_FIRST].icon;
+#endif
+    }
 
     const char *entmdlname(int type)
     {
@@ -47,7 +48,7 @@ namespace entities
         {
             NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL,
             "game/teleport", NULL, NULL,
-            NULL, "game/health"
+            NULL
         };
         return entmdlnames[type];
     }
@@ -55,10 +56,6 @@ namespace entities
     const char *entmodel(const entity &e)
     {
         if(e.type == TELEPORT)
-        {
-            if(e.attr2 > 0) return mapmodelname(e.attr2);
-            if(e.attr2 < 0) return NULL;
-        } else if(e.type == HEALTH)
         {
             if(e.attr2 > 0) return mapmodelname(e.attr2);
             if(e.attr2 < 0) return NULL;
@@ -81,8 +78,6 @@ namespace entities
             {
                 case TELEPORT:
                     if(e.attr2 > 0) preloadmodel(mapmodelname(e.attr2));
-                case HEALTH:
-                    if(e.attr2 > 0) preloadmodel(mapmodelname(e.attr2));
                 case JUMPPAD:
                     if(e.attr4 > 0) preloadmapsound(e.attr4);
                     break;
@@ -101,9 +96,6 @@ namespace entities
                 case TELEPORT:
                     if(e.attr2 < 0) continue;
                     break;
-                case HEALTH:
-                    if(e.attr2 < 0) continue;
-                    break;
                 default:
                     if(!e.spawned() || !validitem(e.type)) continue;
                     break;
@@ -118,28 +110,39 @@ namespace entities
         }
     }
 
-    void addhealth(gameent *d)
+    void addammo(int type, int &v, bool local)
     {
-        int before = d->health;
-        d->health = before + 10;
+#if 0
+        itemstat &is = itemstats[type-I_FIRST];
+        v += is.add;
+        if(v>is.max) v = is.max;
+        if(local) msgsound(is.sound);
+#endif
     }
 
-     void pickupeffects(int n, gameent *d)
+    // these two functions are called when the server acknowledges that you really
+    // picked up the item (in multiplayer someone may grab it before you).
+
+    void pickupeffects(int n, gameent *d)
     {
+#if 0
         if(!ents.inrange(n)) return;
         int type = ents[n]->type;
         if(!validitem(type)) return;
         ents[n]->clearspawned();
         if(!d) return;
-        if(d!=player1)
+        itemstat &is = itemstats[type-I_FIRST];
+        if(d!=player1 || isthirdperson())
         {
-            conoutf("spectators can not pickup items");
+            //particle_text(d->abovehead(), is.name, PART_TEXT, 2000, 0xFFC864, 4.0f, -8);
+            particle_icon(d->abovehead(), is.icon%4, is.icon/4, PART_HUD_ICON_GREY, 2000, 0xFFFFFF, 2.0f, -8);
         }
-        if(d==player1)
+        playsound(itemstats[type-I_FIRST].sound, d!=player1 ? &d->o : NULL, NULL, 0, 0, 0, -1, 0, 1500);
+        d->pickup(type);
+        if(d==player1) switch(type)
         {
-            int before = d->health;
-            d->health = before + 10;
         }
+#endif
     }
 
     // these functions are called when the client touches the item
@@ -230,7 +233,6 @@ namespace entities
         }
     }
 
-
     void trypickup(int n, gameent *d)
     {
         switch(ents[n]->type)
@@ -256,18 +258,7 @@ namespace entities
                 teleport(n, d);
                 break;
             }
-            case HEALTH:
-            {
-                if(d->lastpickup==ents[n]->type && lastmillis-d->lastpickupmillis<500) break;
-                if(ents[n]->attr3 > 0)
-                {
-                    defformatstring(hookname, "can_health_%d", ents[n]->attr3);
-                    if(!execidentbool(hookname, true)) break;
-                }
-                d->lastpickup = ents[n]->type;
-                d->lastpickupmillis = lastmillis;
-                addhealth(d);
-            }
+
             case JUMPPAD:
             {
                 if(d->lastpickup==ents[n]->type && lastmillis-d->lastpickupmillis<300) break;
@@ -388,7 +379,7 @@ namespace entities
         {
             "none?", "light", "mapmodel", "playerstart", "envmap", "particles", "sound", "spotlight", "decal",
             "teleport", "teledest", "jumppad",
-            "flag", "health"
+            "flag"
         };
         return i>=0 && size_t(i)<sizeof(entnames)/sizeof(entnames[0]) ? entnames[i] : "";
     }

@@ -865,8 +865,8 @@ void swapbuffers(bool overlay)
     SDL_GL_SwapWindow(screen);
 }
 
-VAR(menufps, 0, 60, 100000);
-VARP(maxfps, 0, 25, 100000);
+VAR(menufps, 0, 60, 1000);
+VARP(maxfps, 0, 125, 1000);
 
 void limitfps(int &millis, int curmillis)
 {

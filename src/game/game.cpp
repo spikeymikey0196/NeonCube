@@ -2,13 +2,22 @@
 
 namespace game
 {
-    int thumpolduimode = 2;
     bool intermission = false;
     int maptime = 0, maprealtime = 0, maplimit = -1;
     int lasthit = 0, lastspawnattempt = 0;
 
     gameent *player1 = NULL;         // our client
     vector<gameent *> players;       // other clients
+
+    // all the THUMP HUD binds
+    ICOMMAND(clienthealth, "", (), intret(player1->health));
+    ICOMMAND(clientcrouching, "", (), intret(player1->crouching));
+    ICOMMAND(clientjumping, "", (), intret(player1->jumping));
+    ICOMMAND(clientinwater, "", (), intret(player1->inwater));
+    ICOMMAND(clientfrags, "", (), intret(player1->frags));
+    ICOMMAND(clientversion, "", (), intret(1))
+    ICOMMAND(clientdeaths, "", (), intret(player1->deaths));
+    ICOMMAND(clientammo, "", (), intret(player1->ammo[player1->gunselect]));
 
     int following = -1;
 
@@ -664,7 +673,7 @@ namespace game
             }
         }
     }
-    ICOMMAND(kill, "", (), suicide(player1));
+    ICOMMAND(suicide, "", (), suicide(player1));
 
     bool needminimap() { return m_ctf; }
 
@@ -696,47 +705,26 @@ namespace game
 
     void drawhudicons(gameent *d)
     {
+#if 0
         pushhudmatrix();
         hudmatrix.scale(2, 2, 1);
         flushhudmatrix();
 
+        draw_textf("%d", (HICON_X + HICON_SIZE + HICON_SPACE)/2, HICON_TEXTY/2, d->state==CS_DEAD ? 0 : d->health);
         if(d->state!=CS_DEAD)
         {
-            if (thumpolduimode == 0) {
-                draw_textf("%d", (HICON_X + HICON_SIZE + HICON_SPACE)/2, HICON_TEXTY/2, d->state==CS_DEAD ? 0 : d->health);
-                draw_textf("%d", (HICON_X + HICON_SIZE + HICON_SPACE)/2, HICON_TEXTY/2 - 72, d->ammo[d->gunselect]);
-            }
-            if (thumpolduimode == 1) {
-                draw_textf("%d", (HICON_X + HICON_SIZE + HICON_SPACE)/2, HICON_TEXTY/2, d->state==CS_DEAD ? 0 : d->health);
-                draw_textf("%d", (HICON_X + 2*HICON_STEP + HICON_SIZE + HICON_SPACE)/2, HICON_TEXTY/2, d->ammo[d->gunselect]);
-            }
+            draw_textf("%d", (HICON_X + 2*HICON_STEP + HICON_SIZE + HICON_SPACE)/2, HICON_TEXTY/2, d->ammo[d->gunselect]);
         }
 
         pophudmatrix();
 
+        drawicon(HICON_HEALTH, HICON_X, HICON_Y);
         if(d->state!=CS_DEAD)
         {
-            if (thumpolduimode == 0) {
-                drawicon(0, HICON_X, HICON_Y);
-                drawicon(1, HICON_X, HICON_Y - 144);
-            }
-            if (thumpolduimode == 1) {
-                drawicon(0, HICON_X, HICON_Y);
-                drawicon(1, HICON_X + 2*HICON_STEP, HICON_Y);
-            }
-            if (thumpolduimode == 2) {
-
-            }
+            drawicon(HICON_MELEE+d->gunselect, HICON_X + 2*HICON_STEP, HICON_Y);
         }
+#endif
     }
-
-    ICOMMAND(clienthealth, "", (), intret(player1->health));
-    ICOMMAND(clientcrouching, "", (), intret(player1->crouching));
-    ICOMMAND(clientjumping, "", (), intret(player1->jumping));
-    ICOMMAND(clientinwater, "", (), intret(player1->inwater));
-    ICOMMAND(clientfrags, "", (), intret(player1->frags));
-    ICOMMAND(clientdeaths, "", (), intret(player1->deaths));
-    ICOMMAND(clientammo, "", (), intret(player1->ammo[player1->gunselect]));
 
     void gameplayhud(int w, int h)
     {

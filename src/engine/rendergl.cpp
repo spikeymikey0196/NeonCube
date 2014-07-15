@@ -1344,7 +1344,7 @@ int farplane;
 VARP(zoominvel, 0, 40, 500);
 VARP(zoomoutvel, 0, 50, 500);
 VARP(zoomfov, 10, 42, 60);
-VARP(fov, 10, 100, 1500);
+VARP(fov, 10, 100, 150);
 VAR(avatarzoomfov, 1, 1, 1);
 VAR(avatarfov, 10, 40, 100);
 FVAR(avatardepth, 0, 0.8f, 1);
@@ -2724,7 +2724,6 @@ void gl_drawhud()
 
     debugparticles();
 
-
     if(!mainmenu)
     {
         drawdamagescreen(w, h);
@@ -2742,7 +2741,6 @@ void gl_drawhud()
             hudmatrix.scale(conscale, conscale, 1);
             flushhudmatrix();
 
-
             int roffset = 0;
             if(showfps)
             {
@@ -2759,6 +2757,7 @@ void gl_drawhud()
                 else draw_textf("fps %d", conw-5*FONTH, conh-FONTH*3/2, curfps[0]);
                 roffset += FONTH;
             }
+
 
             printtimers(conw, conh);
 
@@ -2819,7 +2818,6 @@ void gl_drawhud()
 }
 
 int renderw = 0, renderh = 0, hudx = 0, hudy = 0, hudw = 0, hudh = 0;
-
 void gl_setupframe(bool force)
 {
     extern int scr_w, scr_h;

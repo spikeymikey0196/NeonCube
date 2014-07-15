@@ -49,7 +49,6 @@ namespace game
     static const int playercolors[] =
     {
         0xAC2C2A,
-        0x696969,
         0xAD6932,
         0xBFAA56,
         0x4C7A3D,

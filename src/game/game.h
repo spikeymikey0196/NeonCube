@@ -70,8 +70,7 @@ enum                            // static entity types
     TELEPORT,                   // attr1 = idx, attr2 = model, attr3 = tag
     TELEDEST,                   // attr1 = angle, attr2 = idx
     JUMPPAD,                    // attr1 = zpush, attr2 = ypush, attr3 = xpush
-    FLAG,                       // attr1 = angle, attr2 = team7
-    HEALTH,
+    FLAG,                       // attr1 = angle, attr2 = team
     MAXENTTYPES,
 
     I_FIRST = 0,
@@ -101,8 +100,8 @@ enum
     M_LOBBY      = 1<<6,
     M_RAIL       = 1<<7,
     M_PULSE      = 1<<8,
-    M_MACH       = 1<<9,
-    M_ALL         = 1<<10,
+    M_MACH      = 1<<9,
+    M_ALL       = 1<<10
 };
 
 static struct gamemodeinfo
@@ -120,9 +119,8 @@ static struct gamemodeinfo
     { "ptdm", "pTDM", M_TEAM | M_PULSE, "Pulse Rifle Team Deathmatch:\nFrag \fs\f3the enemy team\fr with pulse rifles to score points for \fs\f1your team\fr." },
     { "rctf", "rCTF", M_CTF | M_TEAM | M_RAIL, "Railgun Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
     { "pctf", "pCTF", M_CTF | M_TEAM | M_PULSE, "Pulse Rifle Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
-    { "dm", "DM", M_LOBBY | M_ALL, "Deathmatch: frag everything in sight." },
-    { "tdm", "TDM", M_TEAM | M_ALL, "Team Deathmatch: frag everything in sight with your team." },
-    //{ "ctf", "CTF", M_CTF | M_ALL, "Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
+    { "dm", "DM", M_LOBBY | M_ALL, "Deathmatch:\nFrag everyone to score points." },
+    { "tdm", "TDM", M_TEAM | M_ALL, "Team Deathmatch:\nIn teams, frag everyone to score points." },
 };
 
 #define STARTGAMEMODE (-1)
@@ -139,8 +137,8 @@ static struct gamemodeinfo
 #define isteam(a,b)    (m_teammode && a==b)
 #define m_rail         (m_check(gamemode, M_RAIL))
 #define m_pulse        (m_check(gamemode, M_PULSE))
-#define m_mach         (m_check(gamemode, M_MACH))
-#define m_all         (m_check(gamemode, M_ALL))
+#define m_mach        (m_check(gamemode, M_MACH))
+#define m_all        (m_check(gamemode, M_ALL))
 
 #define m_demo         (m_check(gamemode, M_DEMO))
 #define m_edit         (m_check(gamemode, M_EDIT))
@@ -161,7 +159,7 @@ enum
     S_JUMP = 0, S_LAND,
     S_SPLASHIN, S_SPLASHOUT, S_BURN,
     S_ITEMSPAWN, S_TELEPORT, S_JUMPPAD,
-    S_MELEE, S_PULSE1, S_PULSE2, S_PULSEEXPLODE, S_RAIL1, S_RAIL2, S_MACH, S_MACHLONG,
+    S_MELEE, S_PULSE1, S_PULSE2, S_PULSEEXPLODE, S_RAIL1, S_RAIL2,
     S_WEAPLOAD, S_NOAMMO, S_HIT,
     S_PAIN1, S_PAIN2, S_DIE1, S_DIE2,
 
@@ -188,7 +186,7 @@ enum
     N_PING, N_PONG, N_CLIENTPING,
     N_TIMEUP, N_FORCEINTERMISSION,
     N_SERVMSG, N_ITEMLIST, N_RESUME,
-    N_EDITMODE, N_EDITENT, N_EDITF, N_EDITT, N_EDITM, N_FLIP, N_COPY, N_PASTE, N_ROTATE, N_REPLACE, N_DELCUBE, N_CALCLIGHT, N_REMIP, N_NEWMAP, N_GETMAP, N_SENDMAP, N_CLIPBOARD, N_EDITVAR,
+    N_EDITMODE, N_EDITENT, N_EDITF, N_EDITT, N_EDITM, N_FLIP, N_COPY, N_PASTE, N_ROTATE, N_REPLACE, N_DELCUBE, N_CALCLIGHT, N_REMIP, N_EDITVSLOT, N_UNDO, N_REDO, N_NEWMAP, N_GETMAP, N_SENDMAP, N_CLIPBOARD, N_EDITVAR,
     N_MASTERMODE, N_KICK, N_CLEARBANS, N_CURRENTMASTER, N_SPECTATOR, N_SETMASTER, N_SETTEAM,
     N_LISTDEMOS, N_SENDDEMOLIST, N_GETDEMO, N_SENDDEMO,
     N_DEMOPLAYBACK, N_RECORDDEMO, N_STOPDEMO, N_CLEARDEMOS,
@@ -216,7 +214,7 @@ static const int msgsizes[] =               // size inclusive message token, 0 f
     N_PING, 2, N_PONG, 2, N_CLIENTPING, 2,
     N_TIMEUP, 2, N_FORCEINTERMISSION, 1,
     N_SERVMSG, 0, N_ITEMLIST, 0, N_RESUME, 0,
-    N_EDITMODE, 2, N_EDITENT, 11, N_EDITF, 16, N_EDITT, 16, N_EDITM, 16, N_FLIP, 14, N_COPY, 14, N_PASTE, 14, N_ROTATE, 15, N_REPLACE, 17, N_DELCUBE, 14, N_CALCLIGHT, 1, N_REMIP, 1, N_NEWMAP, 2, N_GETMAP, 1, N_SENDMAP, 0, N_EDITVAR, 0,
+    N_EDITMODE, 2, N_EDITENT, 11, N_EDITF, 16, N_EDITT, 16, N_EDITM, 16, N_FLIP, 14, N_COPY, 14, N_PASTE, 14, N_ROTATE, 15, N_REPLACE, 17, N_DELCUBE, 14, N_CALCLIGHT, 1, N_REMIP, 1, N_EDITVSLOT, 16, N_UNDO, 0, N_REDO, 0, N_NEWMAP, 2, N_GETMAP, 1, N_SENDMAP, 0, N_EDITVAR, 0,
     N_MASTERMODE, 2, N_KICK, 0, N_CLEARBANS, 1, N_CURRENTMASTER, 0, N_SPECTATOR, 3, N_SETMASTER, 0, N_SETTEAM, 0,
     N_LISTDEMOS, 1, N_SENDDEMOLIST, 0, N_GETDEMO, 2, N_SENDDEMO, 0,
     N_DEMOPLAYBACK, 3, N_RECORDDEMO, 2, N_STOPDEMO, 1, N_CLEARDEMOS, 2,
@@ -239,6 +237,7 @@ static const int msgsizes[] =               // size inclusive message token, 0 f
 #define PROTOCOL_VERSION 2              // bump when protocol changes
 #define DEMO_VERSION 1                  // bump when demo format changes
 #define DEMO_MAGIC "TESSERACT_DEMO\0\0"
+#define THUMP_VERSION 1                 // communicated on the HUD.
 
 struct demoheader
 {
@@ -280,14 +279,14 @@ static const struct attackinfo { int gun, action, anim, vwepanim, hudanim, sound
     { GUN_RAIL,  ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
     { GUN_PULSE, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_PULSE1, S_PULSE2, 1000, 100, 0, 1, 1000, 30, 1024, 1, 25, 15, 0, 0 },
     { GUN_PULSE, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0 },
-    { GUN_MACH, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_MACH,  S_MACHLONG,  100, 5, 10, 10,    0, 5, 2048, 1, 25,  0, 0, 0 },
+    { GUN_MACH, ACT_SHOOT, ANIM_SHOOT, ANIM_VWEP_SHOOT, ANIM_GUN_SHOOT, S_MELEE,  S_MELEE,  100, 5, 10, 10,    0, 5, 2048, 1, 25,  0, 0, 0 },
     { GUN_MACH, ACT_MELEE, ANIM_MELEE, ANIM_VWEP_MELEE, ANIM_GUN_MELEE, S_MELEE,  S_MELEE,  500, 20, 0, 2,    0,  0,   14, 1,    0,  0, 0, 0}
 };
 
 static const struct guninfo { const char *name, *file, *vwep; int attacks[NUMACTS]; } guns[NUMGUNS] =
 {
     { "railgun", "railgun", "worldgun/railgun", { -1, ATK_RAIL_SHOOT, ATK_RAIL_MELEE }, },
-    { "pulse rifle", "pulserifle", "worldgun/pulserifle", { -1, ATK_PULSE_SHOOT, ATK_PULSE_MELEE }, },
+    { "pulse rifle", "pulserifle", "worldgun/pulserifle", { -1, ATK_PULSE_SHOOT, ATK_PULSE_MELEE } },
     { "chaingun", "chaingun", "worldgun/chaingun", { -1, ATK_MACH_SHOOT, ATK_MACH_MELEE } }
 };
 
@@ -317,7 +316,6 @@ struct gamestate
         health = maxhealth;
         gunselect = GUN_RAIL;
         gunwait = 0;
-        // loopi(NUMGUNS) ammo[i] = 0;
     }
 
     void spawnstate(int gamemode)
@@ -336,15 +334,7 @@ struct gamestate
             ammo[GUN_PULSE] = 100;
             ammo[GUN_MACH] = 0;
         }
-        else if(m_mach)
-        {
-            gunselect = GUN_MACH;
-            ammo[GUN_RAIL] = 0;
-            ammo[GUN_PULSE] = 0;
-            ammo[GUN_MACH] = 200;
-        }
-        else if(m_all)
-        {
+        else if(m_all) {
             gunselect = GUN_RAIL;
             ammo[GUN_RAIL] = 100;
             ammo[GUN_PULSE] = 1;
@@ -373,7 +363,7 @@ struct gamestate
 };
 
 #define MAXTEAMS 2
-static const char * const teamnames[1+MAXTEAMS] = { "none", "azul", "rojo" };
+static const char * const teamnames[1+MAXTEAMS] = { "", "azul", "rojo" };
 static const char * const teamtextcode[1+MAXTEAMS] = { "\f0", "\f1", "\f3" };
 static const int teamtextcolor[1+MAXTEAMS] = { 0x1EC850, 0x6496FF, 0xFF4B19 };
 static const int teamscoreboardcolor[1+MAXTEAMS] = { 0, 0x3030C0, 0xC03030 };
@@ -567,12 +557,13 @@ namespace game
     // client
     extern bool connected, remote, demoplayback;
     extern string servdesc;
+    extern vector<uchar> messages;
 
     extern int parseplayer(const char *arg);
     extern void ignore(int cn);
     extern void unignore(int cn);
     extern bool isignored(int cn);
-    extern void addmsg(int type, const char *fmt = NULL, ...);
+    extern bool addmsg(int type, const char *fmt = NULL, ...);
     extern void switchname(const char *name);
     extern void switchteam(const char *name);
     extern void switchplayermodel(int playermodel);

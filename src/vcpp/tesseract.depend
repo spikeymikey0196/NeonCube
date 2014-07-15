@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1404996215 source:h:\thump\origin\src\engine\engine.h
+1405264215 source:h:\thump\untouchedtess\src\engine\engine.h
 	"cube.h"
 	"world.h"
 	"octa.h"
@@ -8,7 +8,7 @@
 	"bih.h"
 	"model.h"
 
-1404996216 h:\thump\origin\src\shared\cube.h
+1405264216 h:\thump\untouchedtess\src\shared\cube.h
 	<math.h>
 	<string.h>
 	<stdio.h>
@@ -22,6 +22,7 @@
 	"windows.h"
 	<eh.h>
 	<dbghelp.h>
+	<intrin.h>
 	"SDL2/SDL.h"
 	"SDL2/SDL_opengl.h"
 	<SDL.h>
@@ -37,7 +38,7 @@
 	"iengine.h"
 	"igame.h"
 
-1404996212 h:\thump\origin\src\include\sdl.h
+1405264213 h:\thump\untouchedtess\src\include\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -68,12 +69,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_main.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_stdinc.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -101,7 +102,7 @@
 	<stdlib.h>
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_config.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_config.h
 	"SDL_platform.h"
 	"SDL_config_premake.h"
 	"SDL_config_windows.h"
@@ -112,37 +113,37 @@
 	"SDL_config_psp.h"
 	"SDL_config_minimal.h"
 
-1404996213 h:\thump\origin\src\include\sdl_platform.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\begin_code.h
+1405264212 h:\thump\untouchedtess\src\include\begin_code.h
 
-1404996212 h:\thump\origin\src\include\close_code.h
+1405264212 h:\thump\untouchedtess\src\include\close_code.h
 
-1404996213 h:\thump\origin\src\include\sdl_config_windows.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_config_windows.h
 	"SDL_platform.h"
 
-1404996212 h:\thump\origin\src\include\sdl_config_macosx.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_config_macosx.h
 	"SDL_platform.h"
 	<AvailabilityMacros.h>
 
-1404996213 h:\thump\origin\src\include\sdl_assert.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_atomic.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_audio.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -152,24 +153,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_error.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_endian.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_mutex.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_thread.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -178,18 +179,18 @@
 	<process.h>
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_rwops.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_clipboard.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_cpuinfo.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -201,7 +202,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_events.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -215,7 +216,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_video.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -223,12 +224,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_pixels.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_pixels.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_rect.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -236,7 +237,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_surface.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -245,11 +246,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_blendmode.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_keyboard.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -257,27 +258,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_keycode.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1404996212 h:\thump\origin\src\include\sdl_scancode.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1404996213 h:\thump\origin\src\include\sdl_mouse.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_joystick.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_gamecontroller.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -285,11 +286,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_quit.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1404996213 h:\thump\origin\src\include\sdl_gesture.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -297,60 +298,60 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_touch.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_filesystem.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_haptic.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_hints.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_loadso.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_log.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_messagebox.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_power.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_render.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_system.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -358,18 +359,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_timer.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996213 h:\thump\origin\src\include\sdl_version.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996212 h:\thump\origin\src\include\sdl_opengl.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_opengl.h
 	"SDL_config.h"
 	<windows.h>
 	<OpenGL/gl.h>
@@ -383,7 +384,7 @@
 	<stdint.h>
 	<inttypes.h>
 
-1404996217 h:\thump\origin\src\enet\include\enet\enet.h
+1405264207 h:\thump\untouchedtess\src\enet\include\enet\enet.h
 	<stdlib.h>
 	"enet/win32.h"
 	"enet/unix.h"
@@ -392,11 +393,11 @@
 	"enet/list.h"
 	"enet/callbacks.h"
 
-1404996217 h:\thump\origin\src\enet\include\enet\win32.h
+1405264207 h:\thump\untouchedtess\src\enet\include\enet\win32.h
 	<stdlib.h>
 	<winsock2.h>
 
-1404996217 h:\thump\origin\src\enet\include\enet\unix.h
+1405264207 h:\thump\untouchedtess\src\enet\include\enet\unix.h
 	<stdlib.h>
 	<sys/time.h>
 	<sys/types.h>
@@ -404,55 +405,61 @@
 	<netinet/in.h>
 	<unistd.h>
 
-1404996217 h:\thump\origin\src\enet\include\enet\types.h
+1405264207 h:\thump\untouchedtess\src\enet\include\enet\types.h
 
-1404996217 h:\thump\origin\src\enet\include\enet\protocol.h
+1405264207 h:\thump\untouchedtess\src\enet\include\enet\protocol.h
 	"enet/types.h"
 
-1404996217 h:\thump\origin\src\enet\include\enet\list.h
+1405264207 h:\thump\untouchedtess\src\enet\include\enet\list.h
 	<stdlib.h>
 
-1404996217 h:\thump\origin\src\enet\include\enet\callbacks.h
+1405264207 h:\thump\untouchedtess\src\enet\include\enet\callbacks.h
 	<stdlib.h>
 
-1404996212 h:\thump\origin\src\include\zlib.h
+1405264212 h:\thump\untouchedtess\src\include\zlib.h
 	"zconf.h"
 
-1404996213 h:\thump\origin\src\include\zconf.h
+1405264212 h:\thump\untouchedtess\src\include\zconf.h
 	<windows.h>
 	<sys/types.h>
 	<unistd.h>
 	<unixio.h>
 
-1404996216 h:\thump\origin\src\shared\tools.h
+1405264216 h:\thump\untouchedtess\src\shared\tools.h
 
-1404996216 h:\thump\origin\src\shared\geom.h
+1405264216 h:\thump\untouchedtess\src\shared\geom.h
 
-1404996216 h:\thump\origin\src\shared\ents.h
+1405264216 h:\thump\untouchedtess\src\shared\ents.h
 
-1404996216 h:\thump\origin\src\shared\command.h
+1405264216 h:\thump\untouchedtess\src\shared\command.h
 
-1404996216 h:\thump\origin\src\shared\glexts.h
+1405264216 h:\thump\untouchedtess\src\shared\glexts.h
 
-1404996216 h:\thump\origin\src\shared\glemu.h
+1405264216 h:\thump\untouchedtess\src\shared\glemu.h
 
-1404996216 h:\thump\origin\src\shared\iengine.h
+1405264216 h:\thump\untouchedtess\src\shared\iengine.h
 
-1404996216 h:\thump\origin\src\shared\igame.h
+1405264216 h:\thump\untouchedtess\src\shared\igame.h
 
-1404996215 h:\thump\origin\src\engine\world.h
+1405264215 h:\thump\untouchedtess\src\engine\world.h
 
-1404996215 h:\thump\origin\src\engine\octa.h
+1405264215 h:\thump\untouchedtess\src\engine\octa.h
 
-1404996215 h:\thump\origin\src\engine\light.h
+1405264215 h:\thump\untouchedtess\src\engine\light.h
 
-1404996215 h:\thump\origin\src\engine\texture.h
+1405264215 h:\thump\untouchedtess\src\engine\texture.h
 
-1404996215 h:\thump\origin\src\engine\bih.h
+1405264214 h:\thump\untouchedtess\src\engine\bih.h
 
-1404996215 h:\thump\origin\src\engine\model.h
+1405264214 h:\thump\untouchedtess\src\engine\model.h
 
-1404996216 source:h:\thump\origin\src\shared\cube.h
+1405264216 source:h:\thump\untouchedtess\src\game\game.h
+	"cube.h"
+	"ai.h"
+
+1405264216 h:\thump\untouchedtess\src\game\ai.h
+
+1405264216 source:h:\thump\untouchedtess\src\shared\cube.h
 	<math.h>
 	<string.h>
 	<stdio.h>
@@ -466,6 +473,7 @@
 	"windows.h"
 	<eh.h>
 	<dbghelp.h>
+	<intrin.h>
 	"SDL2/SDL.h"
 	"SDL2/SDL_opengl.h"
 	<SDL.h>
@@ -481,10 +489,10 @@
 	"iengine.h"
 	"igame.h"
 
-1404996215 source:h:\thump\origin\src\engine\aa.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\aa.cpp
 	"engine.h"
 
-1404996215 h:\thump\origin\src\engine\engine.h
+1405264215 h:\thump\untouchedtess\src\engine\engine.h
 	"cube.h"
 	"world.h"
 	"octa.h"
@@ -493,45 +501,45 @@
 	"bih.h"
 	"model.h"
 
-1404996215 source:h:\thump\origin\src\engine\bih.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\bih.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\blend.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\blend.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\client.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\client.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\command.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\command.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\console.cpp
+1405264213 source:h:\thump\untouchedtess\src\engine\console.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\dynlight.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\dynlight.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\grass.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\grass.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\light.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\light.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\main.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\main.cpp
 	"engine.h"
 
-1404996214 source:h:\thump\origin\src\engine\material.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\material.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\menus.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\menus.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\movie.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\movie.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
 
-1404996213 h:\thump\origin\src\include\sdl_mixer.h
+1405264212 h:\thump\untouchedtess\src\include\sdl_mixer.h
 	"SDL_stdinc.h"
 	"SDL_rwops.h"
 	"SDL_audio.h"
@@ -540,38 +548,38 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996215 source:h:\thump\origin\src\engine\normal.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\normal.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\octa.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\octa.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\octaedit.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\octaedit.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\octarender.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\octarender.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\ovr.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\ovr.cpp
 	"engine.h"
 	"OVR.h"
 
-1404996215 source:h:\thump\origin\src\engine\physics.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\physics.cpp
 	"engine.h"
 	"mpr.h"
 
-1404996215 h:\thump\origin\src\engine\mpr.h
+1405264214 h:\thump\untouchedtess\src\engine\mpr.h
 
-1404996215 source:h:\thump\origin\src\engine\pvs.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\pvs.cpp
 	"engine.h"
 
-1405000237 source:h:\thump\origin\src\engine\rendergl.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\rendergl.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\renderlights.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\renderlights.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\rendermodel.cpp
+1405264213 source:h:\thump\untouchedtess\src\engine\rendermodel.cpp
 	"engine.h"
 	"ragdoll.h"
 	"animmodel.h"
@@ -585,60 +593,60 @@
 	"smd.h"
 	"iqm.h"
 
-1404996215 h:\thump\origin\src\engine\ragdoll.h
+1405264215 h:\thump\untouchedtess\src\engine\ragdoll.h
 
-1404996215 h:\thump\origin\src\engine\animmodel.h
+1405264214 h:\thump\untouchedtess\src\engine\animmodel.h
 
-1404996215 h:\thump\origin\src\engine\vertmodel.h
+1405264215 h:\thump\untouchedtess\src\engine\vertmodel.h
 
-1404996215 h:\thump\origin\src\engine\skelmodel.h
+1405264214 h:\thump\untouchedtess\src\engine\skelmodel.h
 
-1404996215 h:\thump\origin\src\engine\hitzone.h
+1405264215 h:\thump\untouchedtess\src\engine\hitzone.h
 
-1404996215 h:\thump\origin\src\engine\md2.h
+1405264215 h:\thump\untouchedtess\src\engine\md2.h
 
-1404996215 h:\thump\origin\src\engine\md3.h
+1405264215 h:\thump\untouchedtess\src\engine\md3.h
 
-1404996215 h:\thump\origin\src\engine\md5.h
+1405264215 h:\thump\untouchedtess\src\engine\md5.h
 
-1404996215 h:\thump\origin\src\engine\obj.h
+1405264215 h:\thump\untouchedtess\src\engine\obj.h
 
-1404996215 h:\thump\origin\src\engine\smd.h
+1405264215 h:\thump\untouchedtess\src\engine\smd.h
 
-1404996215 h:\thump\origin\src\engine\iqm.h
+1405264215 h:\thump\untouchedtess\src\engine\iqm.h
 
-1404996215 source:h:\thump\origin\src\engine\renderparticles.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\renderparticles.cpp
 	"engine.h"
 	"explosion.h"
 	"lensflare.h"
 	"lightning.h"
 
-1404996215 h:\thump\origin\src\engine\explosion.h
+1405264215 h:\thump\untouchedtess\src\engine\explosion.h
 
-1404996215 h:\thump\origin\src\engine\lensflare.h
+1405264215 h:\thump\untouchedtess\src\engine\lensflare.h
 
-1404996215 h:\thump\origin\src\engine\lightning.h
+1405264215 h:\thump\untouchedtess\src\engine\lightning.h
 
-1404996215 source:h:\thump\origin\src\engine\rendersky.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\rendersky.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\rendertext.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\rendertext.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\renderva.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\renderva.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\server.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\server.cpp
 	"engine.h"
 	"shellapi.h"
 
-1404996215 source:h:\thump\origin\src\engine\serverbrowser.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\serverbrowser.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\shader.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\shader.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\sound.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\sound.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
@@ -650,10 +658,10 @@
 	<fcntl.h>
 	<wchar.h>
 
-1404996215 source:h:\thump\origin\src\engine\stain.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\stain.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\texture.cpp
+1405264213 source:h:\thump\untouchedtess\src\engine\texture.cpp
 	"engine.h"
 	"SDL2_image/SDL_image.h"
 	"SDL_image.h"
@@ -662,84 +670,82 @@
 	"scale.h"
 	"scale.h"
 
-1404996212 h:\thump\origin\src\include\sdl_image.h
+1405264213 h:\thump\untouchedtess\src\include\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 h:\thump\origin\src\engine\scale.h
+1405264215 h:\thump\untouchedtess\src\engine\scale.h
 
-1404996215 source:h:\thump\origin\src\engine\ui.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\ui.cpp
 	"engine.h"
 	"textedit.h"
 
-1404996215 h:\thump\origin\src\engine\textedit.h
+1405264215 h:\thump\untouchedtess\src\engine\textedit.h
 
-1404996215 source:h:\thump\origin\src\engine\water.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\water.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\world.cpp
+1405264215 source:h:\thump\untouchedtess\src\engine\world.cpp
 	"engine.h"
 
-1404996215 source:h:\thump\origin\src\engine\worldio.cpp
+1405264214 source:h:\thump\untouchedtess\src\engine\worldio.cpp
 	"engine.h"
 
-1404996217 source:h:\thump\origin\src\game\ai.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\ai.cpp
 	"game.h"
 
-1405001535 h:\thump\origin\src\game\game.h
+1405264216 h:\thump\untouchedtess\src\game\game.h
 	"cube.h"
 	"ai.h"
 
-1404996217 h:\thump\origin\src\game\ai.h
-
-1404996217 source:h:\thump\origin\src\game\client.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\client.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 
-1404996217 h:\thump\origin\src\game\ctf.h
+1405264216 h:\thump\untouchedtess\src\game\ctf.h
 
-1404996217 source:h:\thump\origin\src\game\entities.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\entities.cpp
 	"game.h"
 
-1404996217 source:h:\thump\origin\src\game\game.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\game.cpp
 	"game.h"
 
-1405000555 source:h:\thump\origin\src\game\render.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\render.cpp
 	"game.h"
 
-1404996217 source:h:\thump\origin\src\game\scoreboard.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\scoreboard.cpp
 	"game.h"
 
-1405000647 source:h:\thump\origin\src\game\server.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\server.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 	"extinfo.h"
 	"aiman.h"
 
-1404996217 h:\thump\origin\src\game\extinfo.h
+1405264216 h:\thump\untouchedtess\src\game\extinfo.h
 
-1404996217 h:\thump\origin\src\game\aiman.h
+1405264216 h:\thump\untouchedtess\src\game\aiman.h
 
-1404996217 source:h:\thump\origin\src\game\waypoint.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\waypoint.cpp
 	"game.h"
 
-1404996217 source:h:\thump\origin\src\game\weapon.cpp
+1405264216 source:h:\thump\untouchedtess\src\game\weapon.cpp
 	"game.h"
 
-1404996216 source:h:\thump\origin\src\shared\crypto.cpp
+1405264216 source:h:\thump\untouchedtess\src\shared\crypto.cpp
 	"cube.h"
 
-1404996216 source:h:\thump\origin\src\shared\geom.cpp
+1405264216 source:h:\thump\untouchedtess\src\shared\geom.cpp
 	"cube.h"
 
-1404996216 source:h:\thump\origin\src\shared\glemu.cpp
+1405264216 source:h:\thump\untouchedtess\src\shared\glemu.cpp
 	"cube.h"
 
-1404996216 source:h:\thump\origin\src\shared\stream.cpp
+1405264216 source:h:\thump\untouchedtess\src\shared\stream.cpp
 	"cube.h"
 	<shlobj.h>
 	<unistd.h>
@@ -747,23 +753,19 @@
 	<sys/types.h>
 	<dirent.h>
 
-1404996216 source:h:\thump\origin\src\shared\tools.cpp
+1405264216 source:h:\thump\untouchedtess\src\shared\tools.cpp
 	"cube.h"
 
-1404996216 source:h:\thump\origin\src\shared\zip.cpp
+1405264216 source:h:\thump\untouchedtess\src\shared\zip.cpp
 	"cube.h"
 
-1404996216 source:h:\thump\origin\src\vcpp\mingw.rc
+1405264216 source:h:\thump\untouchedtess\src\vcpp\mingw.rc
 	"tesseract.rc"
 
-1404996216 h:\thump\origin\src\vcpp\tesseract.rc
+1405264216 h:\thump\untouchedtess\src\vcpp\tesseract.rc
 	"winresrc.h"
 
-1404999925 source:h:\thump\origin\src\game\game.h
-	"cube.h"
-	"ai.h"
-
-1405070344 source:c:\users\byron kellett\desktop\origin\src\engine\engine.h
+1405264215 source:h:\thump\op-newcodebase\src\engine\engine.h
 	"cube.h"
 	"world.h"
 	"octa.h"
@@ -772,7 +774,7 @@
 	"bih.h"
 	"model.h"
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\cube.h
+1405264216 h:\thump\op-newcodebase\src\shared\cube.h
 	<math.h>
 	<string.h>
 	<stdio.h>
@@ -786,6 +788,7 @@
 	"windows.h"
 	<eh.h>
 	<dbghelp.h>
+	<intrin.h>
 	"SDL2/SDL.h"
 	"SDL2/SDL_opengl.h"
 	<SDL.h>
@@ -801,7 +804,7 @@
 	"iengine.h"
 	"igame.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -832,12 +835,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_main.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_stdinc.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -865,7 +868,7 @@
 	<stdlib.h>
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_config.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_config.h
 	"SDL_platform.h"
 	"SDL_config_premake.h"
 	"SDL_config_windows.h"
@@ -876,37 +879,37 @@
 	"SDL_config_psp.h"
 	"SDL_config_minimal.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_platform.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\begin_code.h
+1405264212 h:\thump\op-newcodebase\src\include\begin_code.h
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\close_code.h
+1405264212 h:\thump\op-newcodebase\src\include\close_code.h
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_config_windows.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_config_windows.h
 	"SDL_platform.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_config_macosx.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_config_macosx.h
 	"SDL_platform.h"
 	<AvailabilityMacros.h>
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_assert.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_atomic.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_audio.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -916,24 +919,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_error.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_endian.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_mutex.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_thread.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -942,18 +945,18 @@
 	<process.h>
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_rwops.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_clipboard.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_cpuinfo.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -965,7 +968,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_events.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -979,7 +982,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_video.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -987,12 +990,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_pixels.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_pixels.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_rect.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -1000,7 +1003,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_surface.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1009,11 +1012,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_blendmode.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_keyboard.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -1021,27 +1024,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_keycode.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_scancode.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_mouse.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_joystick.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_gamecontroller.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -1049,11 +1052,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_quit.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_gesture.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -1061,60 +1064,60 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_touch.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_filesystem.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_haptic.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_hints.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_loadso.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_log.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_messagebox.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_power.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_render.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_system.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -1122,18 +1125,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_timer.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_version.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_opengl.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_opengl.h
 	"SDL_config.h"
 	<windows.h>
 	<OpenGL/gl.h>
@@ -1147,7 +1150,7 @@
 	<stdint.h>
 	<inttypes.h>
 
-1404996218 c:\users\byron kellett\desktop\origin\src\enet\include\enet\enet.h
+1405264207 h:\thump\op-newcodebase\src\enet\include\enet\enet.h
 	<stdlib.h>
 	"enet/win32.h"
 	"enet/unix.h"
@@ -1156,11 +1159,11 @@
 	"enet/list.h"
 	"enet/callbacks.h"
 
-1404996218 c:\users\byron kellett\desktop\origin\src\enet\include\enet\win32.h
+1405264207 h:\thump\op-newcodebase\src\enet\include\enet\win32.h
 	<stdlib.h>
 	<winsock2.h>
 
-1404996218 c:\users\byron kellett\desktop\origin\src\enet\include\enet\unix.h
+1405264207 h:\thump\op-newcodebase\src\enet\include\enet\unix.h
 	<stdlib.h>
 	<sys/time.h>
 	<sys/types.h>
@@ -1168,61 +1171,61 @@
 	<netinet/in.h>
 	<unistd.h>
 
-1404996218 c:\users\byron kellett\desktop\origin\src\enet\include\enet\types.h
+1405264207 h:\thump\op-newcodebase\src\enet\include\enet\types.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\enet\include\enet\protocol.h
+1405264207 h:\thump\op-newcodebase\src\enet\include\enet\protocol.h
 	"enet/types.h"
 
-1404996218 c:\users\byron kellett\desktop\origin\src\enet\include\enet\list.h
+1405264207 h:\thump\op-newcodebase\src\enet\include\enet\list.h
 	<stdlib.h>
 
-1404996218 c:\users\byron kellett\desktop\origin\src\enet\include\enet\callbacks.h
+1405264207 h:\thump\op-newcodebase\src\enet\include\enet\callbacks.h
 	<stdlib.h>
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\zlib.h
+1405264212 h:\thump\op-newcodebase\src\include\zlib.h
 	"zconf.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\zconf.h
+1405264212 h:\thump\op-newcodebase\src\include\zconf.h
 	<windows.h>
 	<sys/types.h>
 	<unistd.h>
 	<unixio.h>
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\tools.h
+1405264216 h:\thump\op-newcodebase\src\shared\tools.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\geom.h
+1405264216 h:\thump\op-newcodebase\src\shared\geom.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\ents.h
+1405264216 h:\thump\op-newcodebase\src\shared\ents.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\command.h
+1405264216 h:\thump\op-newcodebase\src\shared\command.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\glexts.h
+1405264216 h:\thump\op-newcodebase\src\shared\glexts.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\glemu.h
+1405264216 h:\thump\op-newcodebase\src\shared\glemu.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\iengine.h
+1405264216 h:\thump\op-newcodebase\src\shared\iengine.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\shared\igame.h
+1405264216 h:\thump\op-newcodebase\src\shared\igame.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\world.h
+1405264215 h:\thump\op-newcodebase\src\engine\world.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\octa.h
+1405264215 h:\thump\op-newcodebase\src\engine\octa.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\light.h
+1405264215 h:\thump\op-newcodebase\src\engine\light.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\texture.h
+1405264215 h:\thump\op-newcodebase\src\engine\texture.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\bih.h
+1405264214 h:\thump\op-newcodebase\src\engine\bih.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\model.h
+1405264214 h:\thump\op-newcodebase\src\engine\model.h
 
-1405090369 source:c:\users\byron kellett\desktop\origin\src\game\game.h
+1405368944 source:h:\thump\op-newcodebase\src\game\game.h
 	"cube.h"
 	"ai.h"
 
-1404996218 c:\users\byron kellett\desktop\origin\src\game\ai.h
+1405264216 h:\thump\op-newcodebase\src\game\ai.h
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\shared\cube.h
+1405264216 source:h:\thump\op-newcodebase\src\shared\cube.h
 	<math.h>
 	<string.h>
 	<stdio.h>
@@ -1236,6 +1239,7 @@
 	"windows.h"
 	<eh.h>
 	<dbghelp.h>
+	<intrin.h>
 	"SDL2/SDL.h"
 	"SDL2/SDL_opengl.h"
 	<SDL.h>
@@ -1251,10 +1255,10 @@
 	"iengine.h"
 	"igame.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\aa.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\aa.cpp
 	"engine.h"
 
-1405070344 c:\users\byron kellett\desktop\origin\src\engine\engine.h
+1405264215 h:\thump\op-newcodebase\src\engine\engine.h
 	"cube.h"
 	"world.h"
 	"octa.h"
@@ -1263,45 +1267,45 @@
 	"bih.h"
 	"model.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\bih.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\bih.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\blend.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\blend.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\client.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\client.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\command.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\command.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\console.cpp
+1405264213 source:h:\thump\op-newcodebase\src\engine\console.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\dynlight.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\dynlight.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\grass.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\grass.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\light.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\light.cpp
 	"engine.h"
 
-1405073236 source:c:\users\byron kellett\desktop\origin\src\engine\main.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\main.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\material.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\material.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\menus.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\menus.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\movie.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\movie.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_mixer.h
+1405264212 h:\thump\op-newcodebase\src\include\sdl_mixer.h
 	"SDL_stdinc.h"
 	"SDL_rwops.h"
 	"SDL_audio.h"
@@ -1310,38 +1314,38 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\normal.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\normal.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\octa.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\octa.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\octaedit.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\octaedit.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\octarender.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\octarender.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\ovr.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\ovr.cpp
 	"engine.h"
 	"OVR.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\physics.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\physics.cpp
 	"engine.h"
 	"mpr.h"
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\mpr.h
+1405264214 h:\thump\op-newcodebase\src\engine\mpr.h
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\pvs.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\pvs.cpp
 	"engine.h"
 
-1405023713 source:c:\users\byron kellett\desktop\origin\src\engine\rendergl.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\rendergl.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\renderlights.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\renderlights.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\rendermodel.cpp
+1405264213 source:h:\thump\op-newcodebase\src\engine\rendermodel.cpp
 	"engine.h"
 	"ragdoll.h"
 	"animmodel.h"
@@ -1355,60 +1359,60 @@
 	"smd.h"
 	"iqm.h"
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\ragdoll.h
+1405264215 h:\thump\op-newcodebase\src\engine\ragdoll.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\animmodel.h
+1405264214 h:\thump\op-newcodebase\src\engine\animmodel.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\vertmodel.h
+1405264215 h:\thump\op-newcodebase\src\engine\vertmodel.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\skelmodel.h
+1405264214 h:\thump\op-newcodebase\src\engine\skelmodel.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\hitzone.h
+1405264215 h:\thump\op-newcodebase\src\engine\hitzone.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\md2.h
+1405264215 h:\thump\op-newcodebase\src\engine\md2.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\md3.h
+1405264215 h:\thump\op-newcodebase\src\engine\md3.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\md5.h
+1405264215 h:\thump\op-newcodebase\src\engine\md5.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\obj.h
+1405264215 h:\thump\op-newcodebase\src\engine\obj.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\smd.h
+1405264215 h:\thump\op-newcodebase\src\engine\smd.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\iqm.h
+1405264215 h:\thump\op-newcodebase\src\engine\iqm.h
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\renderparticles.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\renderparticles.cpp
 	"engine.h"
 	"explosion.h"
 	"lensflare.h"
 	"lightning.h"
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\explosion.h
+1405264215 h:\thump\op-newcodebase\src\engine\explosion.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\lensflare.h
+1405264215 h:\thump\op-newcodebase\src\engine\lensflare.h
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\lightning.h
+1405264215 h:\thump\op-newcodebase\src\engine\lightning.h
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\rendersky.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\rendersky.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\rendertext.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\rendertext.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\renderva.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\renderva.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\server.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\server.cpp
 	"engine.h"
 	"shellapi.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\serverbrowser.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\serverbrowser.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\shader.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\shader.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\sound.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\sound.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
@@ -1420,10 +1424,10 @@
 	<fcntl.h>
 	<wchar.h>
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\stain.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\stain.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\texture.cpp
+1405264213 source:h:\thump\op-newcodebase\src\engine\texture.cpp
 	"engine.h"
 	"SDL2_image/SDL_image.h"
 	"SDL_image.h"
@@ -1432,82 +1436,82 @@
 	"scale.h"
 	"scale.h"
 
-1404996214 c:\users\byron kellett\desktop\origin\src\include\sdl_image.h
+1405264213 h:\thump\op-newcodebase\src\include\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\scale.h
+1405264215 h:\thump\op-newcodebase\src\engine\scale.h
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\ui.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\ui.cpp
 	"engine.h"
 	"textedit.h"
 
-1404996216 c:\users\byron kellett\desktop\origin\src\engine\textedit.h
+1405264215 h:\thump\op-newcodebase\src\engine\textedit.h
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\water.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\water.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\world.cpp
+1405264215 source:h:\thump\op-newcodebase\src\engine\world.cpp
 	"engine.h"
 
-1404996216 source:c:\users\byron kellett\desktop\origin\src\engine\worldio.cpp
+1405264214 source:h:\thump\op-newcodebase\src\engine\worldio.cpp
 	"engine.h"
 
-1405077587 source:c:\users\byron kellett\desktop\origin\src\game\ai.cpp
+1405365173 source:h:\thump\op-newcodebase\src\game\ai.cpp
 	"game.h"
 
-1405090369 c:\users\byron kellett\desktop\origin\src\game\game.h
+1405368944 h:\thump\op-newcodebase\src\game\game.h
 	"cube.h"
 	"ai.h"
 
-1405077668 source:c:\users\byron kellett\desktop\origin\src\game\client.cpp
+1405264216 source:h:\thump\op-newcodebase\src\game\client.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 
-1404996218 c:\users\byron kellett\desktop\origin\src\game\ctf.h
+1405264216 h:\thump\op-newcodebase\src\game\ctf.h
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\game\entities.cpp
+1405264216 source:h:\thump\op-newcodebase\src\game\entities.cpp
 	"game.h"
 
-1405070957 source:c:\users\byron kellett\desktop\origin\src\game\game.cpp
+1405365149 source:h:\thump\op-newcodebase\src\game\game.cpp
 	"game.h"
 
-1405021815 source:c:\users\byron kellett\desktop\origin\src\game\render.cpp
+1405264216 source:h:\thump\op-newcodebase\src\game\render.cpp
 	"game.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\game\scoreboard.cpp
+1405264216 source:h:\thump\op-newcodebase\src\game\scoreboard.cpp
 	"game.h"
 
-1405000648 source:c:\users\byron kellett\desktop\origin\src\game\server.cpp
+1405368940 source:h:\thump\op-newcodebase\src\game\server.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 	"extinfo.h"
 	"aiman.h"
 
-1404996218 c:\users\byron kellett\desktop\origin\src\game\extinfo.h
+1405264216 h:\thump\op-newcodebase\src\game\extinfo.h
 
-1404996218 c:\users\byron kellett\desktop\origin\src\game\aiman.h
+1405264216 h:\thump\op-newcodebase\src\game\aiman.h
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\game\waypoint.cpp
+1405264216 source:h:\thump\op-newcodebase\src\game\waypoint.cpp
 	"game.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\game\weapon.cpp
+1405365753 source:h:\thump\op-newcodebase\src\game\weapon.cpp
 	"game.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\shared\crypto.cpp
+1405264216 source:h:\thump\op-newcodebase\src\shared\crypto.cpp
 	"cube.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\shared\geom.cpp
+1405264216 source:h:\thump\op-newcodebase\src\shared\geom.cpp
 	"cube.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\shared\glemu.cpp
+1405264216 source:h:\thump\op-newcodebase\src\shared\glemu.cpp
 	"cube.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\shared\stream.cpp
+1405264216 source:h:\thump\op-newcodebase\src\shared\stream.cpp
 	"cube.h"
 	<shlobj.h>
 	<unistd.h>
@@ -1515,19 +1519,28 @@
 	<sys/types.h>
 	<dirent.h>
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\shared\tools.cpp
+1405264216 source:h:\thump\op-newcodebase\src\shared\tools.cpp
 	"cube.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\shared\zip.cpp
+1405264216 source:h:\thump\op-newcodebase\src\shared\zip.cpp
 	"cube.h"
 
-1404996218 source:c:\users\byron kellett\desktop\origin\src\vcpp\mingw.rc
+1405264216 source:h:\thump\op-newcodebase\src\vcpp\mingw.rc
 	"tesseract.rc"
 
-1404996218 c:\users\byron kellett\desktop\origin\src\vcpp\tesseract.rc
+1405264216 h:\thump\op-newcodebase\src\vcpp\tesseract.rc
 	"winresrc.h"
 
-1404996218 source:e:\th\origin\src\shared\cube.h
+1405264216 source:f:\op-newcodebase\src\engine\engine.h
+	"cube.h"
+	"world.h"
+	"octa.h"
+	"light.h"
+	"texture.h"
+	"bih.h"
+	"model.h"
+
+1405264218 f:\op-newcodebase\src\shared\cube.h
 	<math.h>
 	<string.h>
 	<stdio.h>
@@ -1541,6 +1554,7 @@
 	"windows.h"
 	<eh.h>
 	<dbghelp.h>
+	<intrin.h>
 	"SDL2/SDL.h"
 	"SDL2/SDL_opengl.h"
 	<SDL.h>
@@ -1556,7 +1570,7 @@
 	"iengine.h"
 	"igame.h"
 
-1404996214 e:\th\origin\src\include\sdl.h
+1405264214 f:\op-newcodebase\src\include\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -1587,12 +1601,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_main.h
+1405264214 f:\op-newcodebase\src\include\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_stdinc.h
+1405264214 f:\op-newcodebase\src\include\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -1620,7 +1634,7 @@
 	<stdlib.h>
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_config.h
+1405264214 f:\op-newcodebase\src\include\sdl_config.h
 	"SDL_platform.h"
 	"SDL_config_premake.h"
 	"SDL_config_windows.h"
@@ -1631,37 +1645,37 @@
 	"SDL_config_psp.h"
 	"SDL_config_minimal.h"
 
-1404996214 e:\th\origin\src\include\sdl_platform.h
+1405264214 f:\op-newcodebase\src\include\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\begin_code.h
+1405264214 f:\op-newcodebase\src\include\begin_code.h
 
-1404996214 e:\th\origin\src\include\close_code.h
+1405264214 f:\op-newcodebase\src\include\close_code.h
 
-1404996214 e:\th\origin\src\include\sdl_config_windows.h
+1405264214 f:\op-newcodebase\src\include\sdl_config_windows.h
 	"SDL_platform.h"
 
-1404996214 e:\th\origin\src\include\sdl_config_macosx.h
+1405264214 f:\op-newcodebase\src\include\sdl_config_macosx.h
 	"SDL_platform.h"
 	<AvailabilityMacros.h>
 
-1404996214 e:\th\origin\src\include\sdl_assert.h
+1405264214 f:\op-newcodebase\src\include\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_atomic.h
+1405264214 f:\op-newcodebase\src\include\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_audio.h
+1405264214 f:\op-newcodebase\src\include\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -1671,24 +1685,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_error.h
+1405264214 f:\op-newcodebase\src\include\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_endian.h
+1405264214 f:\op-newcodebase\src\include\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_mutex.h
+1405264214 f:\op-newcodebase\src\include\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_thread.h
+1405264214 f:\op-newcodebase\src\include\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -1697,18 +1711,18 @@
 	<process.h>
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_rwops.h
+1405264214 f:\op-newcodebase\src\include\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_clipboard.h
+1405264214 f:\op-newcodebase\src\include\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_cpuinfo.h
+1405264214 f:\op-newcodebase\src\include\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -1720,7 +1734,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_events.h
+1405264214 f:\op-newcodebase\src\include\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -1734,7 +1748,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_video.h
+1405264214 f:\op-newcodebase\src\include\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1742,12 +1756,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_pixels.h
+1405264214 f:\op-newcodebase\src\include\sdl_pixels.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_rect.h
+1405264214 f:\op-newcodebase\src\include\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -1755,7 +1769,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_surface.h
+1405264214 f:\op-newcodebase\src\include\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -1764,11 +1778,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_blendmode.h
+1405264214 f:\op-newcodebase\src\include\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_keyboard.h
+1405264214 f:\op-newcodebase\src\include\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -1776,27 +1790,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_keycode.h
+1405264214 f:\op-newcodebase\src\include\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1404996214 e:\th\origin\src\include\sdl_scancode.h
+1405264214 f:\op-newcodebase\src\include\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1404996214 e:\th\origin\src\include\sdl_mouse.h
+1405264214 f:\op-newcodebase\src\include\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_joystick.h
+1405264214 f:\op-newcodebase\src\include\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_gamecontroller.h
+1405264214 f:\op-newcodebase\src\include\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -1804,11 +1818,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_quit.h
+1405264214 f:\op-newcodebase\src\include\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1404996214 e:\th\origin\src\include\sdl_gesture.h
+1405264214 f:\op-newcodebase\src\include\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -1816,60 +1830,60 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_touch.h
+1405264214 f:\op-newcodebase\src\include\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_filesystem.h
+1405264214 f:\op-newcodebase\src\include\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_haptic.h
+1405264214 f:\op-newcodebase\src\include\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_hints.h
+1405264214 f:\op-newcodebase\src\include\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_loadso.h
+1405264214 f:\op-newcodebase\src\include\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_log.h
+1405264214 f:\op-newcodebase\src\include\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_messagebox.h
+1405264214 f:\op-newcodebase\src\include\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_power.h
+1405264214 f:\op-newcodebase\src\include\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_render.h
+1405264214 f:\op-newcodebase\src\include\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_system.h
+1405264214 f:\op-newcodebase\src\include\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -1877,18 +1891,18 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_timer.h
+1405264214 f:\op-newcodebase\src\include\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_version.h
+1405264214 f:\op-newcodebase\src\include\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1404996214 e:\th\origin\src\include\sdl_opengl.h
+1405264214 f:\op-newcodebase\src\include\sdl_opengl.h
 	"SDL_config.h"
 	<windows.h>
 	<OpenGL/gl.h>
@@ -1902,7 +1916,7 @@
 	<stdint.h>
 	<inttypes.h>
 
-1404996218 e:\th\origin\src\enet\include\enet\enet.h
+1405264208 f:\op-newcodebase\src\enet\include\enet\enet.h
 	<stdlib.h>
 	"enet/win32.h"
 	"enet/unix.h"
@@ -1911,11 +1925,11 @@
 	"enet/list.h"
 	"enet/callbacks.h"
 
-1404996218 e:\th\origin\src\enet\include\enet\win32.h
+1405264208 f:\op-newcodebase\src\enet\include\enet\win32.h
 	<stdlib.h>
 	<winsock2.h>
 
-1404996218 e:\th\origin\src\enet\include\enet\unix.h
+1405264208 f:\op-newcodebase\src\enet\include\enet\unix.h
 	<stdlib.h>
 	<sys/time.h>
 	<sys/types.h>
@@ -1923,55 +1937,55 @@
 	<netinet/in.h>
 	<unistd.h>
 
-1404996218 e:\th\origin\src\enet\include\enet\types.h
+1405264208 f:\op-newcodebase\src\enet\include\enet\types.h
 
-1404996218 e:\th\origin\src\enet\include\enet\protocol.h
+1405264208 f:\op-newcodebase\src\enet\include\enet\protocol.h
 	"enet/types.h"
 
-1404996218 e:\th\origin\src\enet\include\enet\list.h
+1405264208 f:\op-newcodebase\src\enet\include\enet\list.h
 	<stdlib.h>
 
-1404996218 e:\th\origin\src\enet\include\enet\callbacks.h
+1405264208 f:\op-newcodebase\src\enet\include\enet\callbacks.h
 	<stdlib.h>
 
-1404996214 e:\th\origin\src\include\zlib.h
+1405264214 f:\op-newcodebase\src\include\zlib.h
 	"zconf.h"
 
-1404996214 e:\th\origin\src\include\zconf.h
+1405264214 f:\op-newcodebase\src\include\zconf.h
 	<windows.h>
 	<sys/types.h>
 	<unistd.h>
 	<unixio.h>
 
-1404996218 e:\th\origin\src\shared\tools.h
+1405264218 f:\op-newcodebase\src\shared\tools.h
 
-1404996218 e:\th\origin\src\shared\geom.h
+1405264218 f:\op-newcodebase\src\shared\geom.h
 
-1404996218 e:\th\origin\src\shared\ents.h
+1405264218 f:\op-newcodebase\src\shared\ents.h
 
-1404996218 e:\th\origin\src\shared\command.h
+1405264218 f:\op-newcodebase\src\shared\command.h
 
-1404996218 e:\th\origin\src\shared\glexts.h
+1405264218 f:\op-newcodebase\src\shared\glexts.h
 
-1404996218 e:\th\origin\src\shared\glemu.h
+1405264218 f:\op-newcodebase\src\shared\glemu.h
 
-1404996218 e:\th\origin\src\shared\iengine.h
+1405264218 f:\op-newcodebase\src\shared\iengine.h
 
-1404996218 e:\th\origin\src\shared\igame.h
+1405264218 f:\op-newcodebase\src\shared\igame.h
 
-1404996216 source:e:\th\origin\src\engine\aa.cpp
-	"engine.h"
+1405264216 f:\op-newcodebase\src\engine\world.h
 
-1405094046 e:\th\origin\src\engine\engine.h
-	"cube.h"
-	"world.h"
-	"octa.h"
-	"light.h"
-	"texture.h"
-	"bih.h"
-	"model.h"
+1405264216 f:\op-newcodebase\src\engine\octa.h
 
-1404996218 e:\th\origin\src\shared\cube.h
+1405264216 f:\op-newcodebase\src\engine\light.h
+
+1405264216 f:\op-newcodebase\src\engine\texture.h
+
+1405264216 f:\op-newcodebase\src\engine\bih.h
+
+1405264216 f:\op-newcodebase\src\engine\model.h
+
+1405264218 source:f:\op-newcodebase\src\shared\cube.h
 	<math.h>
 	<string.h>
 	<stdio.h>
@@ -1985,6 +1999,7 @@
 	"windows.h"
 	<eh.h>
 	<dbghelp.h>
+	<intrin.h>
 	"SDL2/SDL.h"
 	"SDL2/SDL_opengl.h"
 	<SDL.h>
@@ -2000,54 +2015,57 @@
 	"iengine.h"
 	"igame.h"
 
-1404996216 e:\th\origin\src\engine\world.h
-
-1404996216 e:\th\origin\src\engine\octa.h
-
-1404996216 e:\th\origin\src\engine\light.h
-
-1404996216 e:\th\origin\src\engine\texture.h
-
-1404996216 e:\th\origin\src\engine\bih.h
-
-1404996216 e:\th\origin\src\engine\model.h
-
-1404996216 source:e:\th\origin\src\engine\bih.cpp
+1405264216 source:f:\op-newcodebase\src\engine\aa.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\blend.cpp
+1405264216 f:\op-newcodebase\src\engine\engine.h
+	"cube.h"
+	"world.h"
+	"octa.h"
+	"light.h"
+	"texture.h"
+	"bih.h"
+	"model.h"
+
+1405264216 source:f:\op-newcodebase\src\engine\bih.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\client.cpp
+1405264216 source:f:\op-newcodebase\src\engine\blend.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\command.cpp
+1405264216 source:f:\op-newcodebase\src\engine\client.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\console.cpp
+1405264216 source:f:\op-newcodebase\src\engine\command.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\dynlight.cpp
+1405264214 source:f:\op-newcodebase\src\engine\console.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\grass.cpp
+1405264216 source:f:\op-newcodebase\src\engine\dynlight.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\light.cpp
+1405264216 source:f:\op-newcodebase\src\engine\grass.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\material.cpp
+1405264216 source:f:\op-newcodebase\src\engine\light.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\menus.cpp
+1405264216 source:f:\op-newcodebase\src\engine\main.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\movie.cpp
+1405264216 source:f:\op-newcodebase\src\engine\material.cpp
+	"engine.h"
+
+1405264216 source:f:\op-newcodebase\src\engine\menus.cpp
+	"engine.h"
+
+1405264216 source:f:\op-newcodebase\src\engine\movie.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
 
-1404996214 e:\th\origin\src\include\sdl_mixer.h
+1405264214 f:\op-newcodebase\src\include\sdl_mixer.h
 	"SDL_stdinc.h"
 	"SDL_rwops.h"
 	"SDL_audio.h"
@@ -2056,35 +2074,38 @@
 	"begin_code.h"
 	"close_code.h"
 
-1404996216 source:e:\th\origin\src\engine\normal.cpp
+1405264216 source:f:\op-newcodebase\src\engine\normal.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\octa.cpp
+1405264216 source:f:\op-newcodebase\src\engine\octa.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\octaedit.cpp
+1405264216 source:f:\op-newcodebase\src\engine\octaedit.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\octarender.cpp
+1405264216 source:f:\op-newcodebase\src\engine\octarender.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\ovr.cpp
+1405264216 source:f:\op-newcodebase\src\engine\ovr.cpp
 	"engine.h"
 	"OVR.h"
 
-1404996216 source:e:\th\origin\src\engine\physics.cpp
+1405264216 source:f:\op-newcodebase\src\engine\physics.cpp
 	"engine.h"
 	"mpr.h"
 
-1404996216 e:\th\origin\src\engine\mpr.h
+1405264216 f:\op-newcodebase\src\engine\mpr.h
 
-1404996216 source:e:\th\origin\src\engine\pvs.cpp
+1405264216 source:f:\op-newcodebase\src\engine\pvs.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\renderlights.cpp
+1405419052 source:f:\op-newcodebase\src\engine\rendergl.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\rendermodel.cpp
+1405369082 source:f:\op-newcodebase\src\engine\renderlights.cpp
+	"engine.h"
+
+1405264214 source:f:\op-newcodebase\src\engine\rendermodel.cpp
 	"engine.h"
 	"ragdoll.h"
 	"animmodel.h"
@@ -2098,60 +2119,60 @@
 	"smd.h"
 	"iqm.h"
 
-1404996216 e:\th\origin\src\engine\ragdoll.h
+1405264216 f:\op-newcodebase\src\engine\ragdoll.h
 
-1404996216 e:\th\origin\src\engine\animmodel.h
+1405264216 f:\op-newcodebase\src\engine\animmodel.h
 
-1404996216 e:\th\origin\src\engine\vertmodel.h
+1405264216 f:\op-newcodebase\src\engine\vertmodel.h
 
-1404996216 e:\th\origin\src\engine\skelmodel.h
+1405264216 f:\op-newcodebase\src\engine\skelmodel.h
 
-1404996216 e:\th\origin\src\engine\hitzone.h
+1405264216 f:\op-newcodebase\src\engine\hitzone.h
 
-1404996216 e:\th\origin\src\engine\md2.h
+1405264216 f:\op-newcodebase\src\engine\md2.h
 
-1404996216 e:\th\origin\src\engine\md3.h
+1405264216 f:\op-newcodebase\src\engine\md3.h
 
-1404996216 e:\th\origin\src\engine\md5.h
+1405264216 f:\op-newcodebase\src\engine\md5.h
 
-1404996216 e:\th\origin\src\engine\obj.h
+1405264216 f:\op-newcodebase\src\engine\obj.h
 
-1404996216 e:\th\origin\src\engine\smd.h
+1405264216 f:\op-newcodebase\src\engine\smd.h
 
-1404996216 e:\th\origin\src\engine\iqm.h
+1405264216 f:\op-newcodebase\src\engine\iqm.h
 
-1404996216 source:e:\th\origin\src\engine\renderparticles.cpp
+1405264216 source:f:\op-newcodebase\src\engine\renderparticles.cpp
 	"engine.h"
 	"explosion.h"
 	"lensflare.h"
 	"lightning.h"
 
-1404996216 e:\th\origin\src\engine\explosion.h
+1405264216 f:\op-newcodebase\src\engine\explosion.h
 
-1404996216 e:\th\origin\src\engine\lensflare.h
+1405264216 f:\op-newcodebase\src\engine\lensflare.h
 
-1404996216 e:\th\origin\src\engine\lightning.h
+1405264216 f:\op-newcodebase\src\engine\lightning.h
 
-1404996216 source:e:\th\origin\src\engine\rendersky.cpp
+1405264216 source:f:\op-newcodebase\src\engine\rendersky.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\rendertext.cpp
+1405264216 source:f:\op-newcodebase\src\engine\rendertext.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\renderva.cpp
+1405264216 source:f:\op-newcodebase\src\engine\renderva.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\server.cpp
+1405264216 source:f:\op-newcodebase\src\engine\server.cpp
 	"engine.h"
 	"shellapi.h"
 
-1404996216 source:e:\th\origin\src\engine\serverbrowser.cpp
+1405264216 source:f:\op-newcodebase\src\engine\serverbrowser.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\shader.cpp
+1405264216 source:f:\op-newcodebase\src\engine\shader.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\sound.cpp
+1405264216 source:f:\op-newcodebase\src\engine\sound.cpp
 	"engine.h"
 	"SDL2_mixer/SDL_mixer.h"
 	"SDL_mixer.h"
@@ -2163,795 +2184,10 @@
 	<fcntl.h>
 	<wchar.h>
 
-1404996216 source:e:\th\origin\src\engine\stain.cpp
+1405264216 source:f:\op-newcodebase\src\engine\stain.cpp
 	"engine.h"
 
-1404996216 source:e:\th\origin\src\engine\texture.cpp
-	"engine.h"
-	"SDL2_image/SDL_image.h"
-	"SDL_image.h"
-	"scale.h"
-	"scale.h"
-	"scale.h"
-	"scale.h"
-
-1404996214 e:\th\origin\src\include\sdl_image.h
-	"SDL.h"
-	"SDL_version.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996216 e:\th\origin\src\engine\scale.h
-
-1404996216 source:e:\th\origin\src\engine\ui.cpp
-	"engine.h"
-	"textedit.h"
-
-1404996216 e:\th\origin\src\engine\textedit.h
-
-1404996216 source:e:\th\origin\src\engine\water.cpp
-	"engine.h"
-
-1404996216 source:e:\th\origin\src\engine\world.cpp
-	"engine.h"
-
-1404996216 source:e:\th\origin\src\engine\worldio.cpp
-	"engine.h"
-
-1404996218 source:e:\th\origin\src\game\entities.cpp
-	"game.h"
-
-1405109450 e:\th\origin\src\game\game.h
-	"cube.h"
-	"ai.h"
-
-1404996218 e:\th\origin\src\game\ai.h
-
-1404996218 source:e:\th\origin\src\game\scoreboard.cpp
-	"game.h"
-
-1405000648 source:e:\th\origin\src\game\server.cpp
-	"game.h"
-	"ctf.h"
-	"ctf.h"
-	"extinfo.h"
-	"aiman.h"
-
-1404996218 e:\th\origin\src\game\ctf.h
-
-1404996218 e:\th\origin\src\game\extinfo.h
-
-1404996218 e:\th\origin\src\game\aiman.h
-
-1404996218 source:e:\th\origin\src\game\waypoint.cpp
-	"game.h"
-
-1404996218 source:e:\th\origin\src\shared\crypto.cpp
-	"cube.h"
-
-1404996218 source:e:\th\origin\src\shared\geom.cpp
-	"cube.h"
-
-1404996218 source:e:\th\origin\src\shared\glemu.cpp
-	"cube.h"
-
-1404996218 source:e:\th\origin\src\shared\stream.cpp
-	"cube.h"
-	<shlobj.h>
-	<unistd.h>
-	<sys/stat.h>
-	<sys/types.h>
-	<dirent.h>
-
-1404996218 source:e:\th\origin\src\shared\tools.cpp
-	"cube.h"
-
-1404996218 source:e:\th\origin\src\shared\zip.cpp
-	"cube.h"
-
-1404996218 source:e:\th\origin\src\vcpp\mingw.rc
-	"tesseract.rc"
-
-1404996218 e:\th\origin\src\vcpp\tesseract.rc
-	"winresrc.h"
-
-1405090370 source:e:\th\origin\src\game\game.h
-	"cube.h"
-	"ai.h"
-
-1405073238 source:e:\th\origin\src\engine\main.cpp
-	"engine.h"
-
-1405023714 source:e:\th\origin\src\engine\rendergl.cpp
-	"engine.h"
-
-1405077588 source:e:\th\origin\src\game\ai.cpp
-	"game.h"
-
-1405077670 source:e:\th\origin\src\game\client.cpp
-	"game.h"
-	"ctf.h"
-	"ctf.h"
-
-1405070958 source:e:\th\origin\src\game\game.cpp
-	"game.h"
-
-1405021816 source:e:\th\origin\src\game\render.cpp
-	"game.h"
-
-1405090534 source:e:\th\origin\src\game\weapon.cpp
-	"game.h"
-
-1405094046 source:e:\th\origin\src\engine\engine.h
-	"cube.h"
-	"world.h"
-	"octa.h"
-	"light.h"
-	"texture.h"
-	"bih.h"
-	"model.h"
-
-1405188968 source:h:\thump\thump\src\engine\engine.h
-	"cube.h"
-	"world.h"
-	"octa.h"
-	"light.h"
-	"texture.h"
-	"bih.h"
-	"model.h"
-
-1404996218 h:\thump\thump\src\shared\cube.h
-	<math.h>
-	<string.h>
-	<stdio.h>
-	<stdlib.h>
-	<ctype.h>
-	<stdarg.h>
-	<limits.h>
-	<float.h>
-	<assert.h>
-	<time.h>
-	"windows.h"
-	<eh.h>
-	<dbghelp.h>
-	"SDL2/SDL.h"
-	"SDL2/SDL_opengl.h"
-	<SDL.h>
-	<SDL_opengl.h>
-	<enet/enet.h>
-	<zlib.h>
-	"tools.h"
-	"geom.h"
-	"ents.h"
-	"command.h"
-	"glexts.h"
-	"glemu.h"
-	"iengine.h"
-	"igame.h"
-
-1404996214 h:\thump\thump\src\include\sdl.h
-	"SDL_main.h"
-	"SDL_stdinc.h"
-	"SDL_assert.h"
-	"SDL_atomic.h"
-	"SDL_audio.h"
-	"SDL_clipboard.h"
-	"SDL_cpuinfo.h"
-	"SDL_endian.h"
-	"SDL_error.h"
-	"SDL_events.h"
-	"SDL_filesystem.h"
-	"SDL_joystick.h"
-	"SDL_gamecontroller.h"
-	"SDL_haptic.h"
-	"SDL_hints.h"
-	"SDL_loadso.h"
-	"SDL_log.h"
-	"SDL_messagebox.h"
-	"SDL_mutex.h"
-	"SDL_power.h"
-	"SDL_render.h"
-	"SDL_rwops.h"
-	"SDL_system.h"
-	"SDL_thread.h"
-	"SDL_timer.h"
-	"SDL_version.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_main.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_stdinc.h
-	"SDL_config.h"
-	<sys/types.h>
-	<stdio.h>
-	<stdlib.h>
-	<stddef.h>
-	<stdarg.h>
-	<stdlib.h>
-	<malloc.h>
-	<stddef.h>
-	<stdarg.h>
-	<memory.h>
-	<string.h>
-	<strings.h>
-	<inttypes.h>
-	<stdint.h>
-	<ctype.h>
-	<math.h>
-	<float.h>
-	<iconv.h>
-	"begin_code.h"
-	<alloca.h>
-	<malloc.h>
-	<malloc.h>
-	<malloc.h>
-	<stdlib.h>
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_config.h
-	"SDL_platform.h"
-	"SDL_config_premake.h"
-	"SDL_config_windows.h"
-	"SDL_config_winrt.h"
-	"SDL_config_macosx.h"
-	"SDL_config_iphoneos.h"
-	"SDL_config_android.h"
-	"SDL_config_psp.h"
-	"SDL_config_minimal.h"
-
-1404996214 h:\thump\thump\src\include\sdl_platform.h
-	"AvailabilityMacros.h"
-	"TargetConditionals.h"
-	<winapifamily.h>
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\begin_code.h
-
-1404996214 h:\thump\thump\src\include\close_code.h
-
-1404996214 h:\thump\thump\src\include\sdl_config_windows.h
-	"SDL_platform.h"
-
-1404996214 h:\thump\thump\src\include\sdl_config_macosx.h
-	"SDL_platform.h"
-	<AvailabilityMacros.h>
-
-1404996214 h:\thump\thump\src\include\sdl_assert.h
-	"SDL_config.h"
-	"begin_code.h"
-	<signal.h>
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_atomic.h
-	"SDL_stdinc.h"
-	"SDL_platform.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_audio.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_endian.h"
-	"SDL_mutex.h"
-	"SDL_thread.h"
-	"SDL_rwops.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_error.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_endian.h
-	"SDL_stdinc.h"
-	<endian.h>
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_mutex.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_thread.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_atomic.h"
-	"SDL_mutex.h"
-	"begin_code.h"
-	<process.h>
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_rwops.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_clipboard.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_cpuinfo.h
-	"SDL_stdinc.h"
-	<intrin.h>
-	<intrin.h>
-	<altivec.h>
-	<mmintrin.h>
-	<mm3dnow.h>
-	<xmmintrin.h>
-	<emmintrin.h>
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_events.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_video.h"
-	"SDL_keyboard.h"
-	"SDL_mouse.h"
-	"SDL_joystick.h"
-	"SDL_gamecontroller.h"
-	"SDL_quit.h"
-	"SDL_gesture.h"
-	"SDL_touch.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_video.h
-	"SDL_stdinc.h"
-	"SDL_pixels.h"
-	"SDL_rect.h"
-	"SDL_surface.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_pixels.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_rect.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_pixels.h"
-	"SDL_rwops.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_surface.h
-	"SDL_stdinc.h"
-	"SDL_pixels.h"
-	"SDL_rect.h"
-	"SDL_blendmode.h"
-	"SDL_rwops.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_blendmode.h
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_keyboard.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_keycode.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_keycode.h
-	"SDL_stdinc.h"
-	"SDL_scancode.h"
-
-1404996214 h:\thump\thump\src\include\sdl_scancode.h
-	"SDL_stdinc.h"
-
-1404996214 h:\thump\thump\src\include\sdl_mouse.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_joystick.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_gamecontroller.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_rwops.h"
-	"SDL_joystick.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_quit.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-
-1404996214 h:\thump\thump\src\include\sdl_gesture.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_video.h"
-	"SDL_touch.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_touch.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_filesystem.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_haptic.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"SDL_joystick.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_hints.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_loadso.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_log.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_messagebox.h
-	"SDL_stdinc.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_power.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_render.h
-	"SDL_stdinc.h"
-	"SDL_rect.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_system.h
-	"SDL_stdinc.h"
-	"SDL_keyboard.h"
-	"SDL_render.h"
-	"SDL_video.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_timer.h
-	"SDL_stdinc.h"
-	"SDL_error.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_version.h
-	"SDL_stdinc.h"
-	"begin_code.h"
-	"close_code.h"
-
-1404996214 h:\thump\thump\src\include\sdl_opengl.h
-	"SDL_config.h"
-	<windows.h>
-	<OpenGL/gl.h>
-	<GL/gl.h>
-	<windows.h>
-	<stddef.h>
-	<inttypes.h>
-	<inttypes.h>
-	<inttypes.h>
-	<stdint.h>
-	<stdint.h>
-	<inttypes.h>
-
-1404996218 h:\thump\thump\src\enet\include\enet\enet.h
-	<stdlib.h>
-	"enet/win32.h"
-	"enet/unix.h"
-	"enet/types.h"
-	"enet/protocol.h"
-	"enet/list.h"
-	"enet/callbacks.h"
-
-1404996218 h:\thump\thump\src\enet\include\enet\win32.h
-	<stdlib.h>
-	<winsock2.h>
-
-1404996218 h:\thump\thump\src\enet\include\enet\unix.h
-	<stdlib.h>
-	<sys/time.h>
-	<sys/types.h>
-	<sys/socket.h>
-	<netinet/in.h>
-	<unistd.h>
-
-1404996218 h:\thump\thump\src\enet\include\enet\types.h
-
-1404996218 h:\thump\thump\src\enet\include\enet\protocol.h
-	"enet/types.h"
-
-1404996218 h:\thump\thump\src\enet\include\enet\list.h
-	<stdlib.h>
-
-1404996218 h:\thump\thump\src\enet\include\enet\callbacks.h
-	<stdlib.h>
-
-1404996214 h:\thump\thump\src\include\zlib.h
-	"zconf.h"
-
-1404996214 h:\thump\thump\src\include\zconf.h
-	<windows.h>
-	<sys/types.h>
-	<unistd.h>
-	<unixio.h>
-
-1404996218 h:\thump\thump\src\shared\tools.h
-
-1404996218 h:\thump\thump\src\shared\geom.h
-
-1404996218 h:\thump\thump\src\shared\ents.h
-
-1404996218 h:\thump\thump\src\shared\command.h
-
-1404996218 h:\thump\thump\src\shared\glexts.h
-
-1404996218 h:\thump\thump\src\shared\glemu.h
-
-1404996218 h:\thump\thump\src\shared\iengine.h
-
-1404996218 h:\thump\thump\src\shared\igame.h
-
-1405188946 h:\thump\thump\src\engine\world.h
-
-1405188945 h:\thump\thump\src\engine\octa.h
-
-1405188944 h:\thump\thump\src\engine\light.h
-
-1405188945 h:\thump\thump\src\engine\texture.h
-
-1405188946 h:\thump\thump\src\engine\bih.h
-
-1405188945 h:\thump\thump\src\engine\model.h
-
-1405285481 source:h:\thump\thump\src\game\game.h
-	"cube.h"
-	"ai.h"
-
-1404996218 h:\thump\thump\src\game\ai.h
-
-1404996218 source:h:\thump\thump\src\shared\cube.h
-	<math.h>
-	<string.h>
-	<stdio.h>
-	<stdlib.h>
-	<ctype.h>
-	<stdarg.h>
-	<limits.h>
-	<float.h>
-	<assert.h>
-	<time.h>
-	"windows.h"
-	<eh.h>
-	<dbghelp.h>
-	"SDL2/SDL.h"
-	"SDL2/SDL_opengl.h"
-	<SDL.h>
-	<SDL_opengl.h>
-	<enet/enet.h>
-	<zlib.h>
-	"tools.h"
-	"geom.h"
-	"ents.h"
-	"command.h"
-	"glexts.h"
-	"glemu.h"
-	"iengine.h"
-	"igame.h"
-
-1405188946 source:h:\thump\thump\src\engine\aa.cpp
-	"engine.h"
-
-1405188968 h:\thump\thump\src\engine\engine.h
-	"cube.h"
-	"world.h"
-	"octa.h"
-	"light.h"
-	"texture.h"
-	"bih.h"
-	"model.h"
-
-1405188946 source:h:\thump\thump\src\engine\bih.cpp
-	"engine.h"
-
-1405188946 source:h:\thump\thump\src\engine\blend.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\client.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\command.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\console.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\dynlight.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\grass.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\light.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\main.cpp
-	"engine.h"
-
-1405188944 source:h:\thump\thump\src\engine\material.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\menus.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\movie.cpp
-	"engine.h"
-	"SDL2_mixer/SDL_mixer.h"
-	"SDL_mixer.h"
-
-1404996214 h:\thump\thump\src\include\sdl_mixer.h
-	"SDL_stdinc.h"
-	"SDL_rwops.h"
-	"SDL_audio.h"
-	"SDL_endian.h"
-	"SDL_version.h"
-	"begin_code.h"
-	"close_code.h"
-
-1405188945 source:h:\thump\thump\src\engine\normal.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\octa.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\octaedit.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\octarender.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\ovr.cpp
-	"engine.h"
-	"OVR.h"
-
-1405188945 source:h:\thump\thump\src\engine\physics.cpp
-	"engine.h"
-	"mpr.h"
-
-1405188945 h:\thump\thump\src\engine\mpr.h
-
-1405188945 source:h:\thump\thump\src\engine\pvs.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\rendergl.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\renderlights.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\rendermodel.cpp
-	"engine.h"
-	"ragdoll.h"
-	"animmodel.h"
-	"vertmodel.h"
-	"skelmodel.h"
-	"hitzone.h"
-	"md2.h"
-	"md3.h"
-	"md5.h"
-	"obj.h"
-	"smd.h"
-	"iqm.h"
-
-1405188945 h:\thump\thump\src\engine\ragdoll.h
-
-1405188946 h:\thump\thump\src\engine\animmodel.h
-
-1405188945 h:\thump\thump\src\engine\vertmodel.h
-
-1405188945 h:\thump\thump\src\engine\skelmodel.h
-
-1405188944 h:\thump\thump\src\engine\hitzone.h
-
-1405188944 h:\thump\thump\src\engine\md2.h
-
-1405188945 h:\thump\thump\src\engine\md3.h
-
-1405188945 h:\thump\thump\src\engine\md5.h
-
-1405188945 h:\thump\thump\src\engine\obj.h
-
-1405188945 h:\thump\thump\src\engine\smd.h
-
-1405188944 h:\thump\thump\src\engine\iqm.h
-
-1405188945 source:h:\thump\thump\src\engine\renderparticles.cpp
-	"engine.h"
-	"explosion.h"
-	"lensflare.h"
-	"lightning.h"
-
-1405188944 h:\thump\thump\src\engine\explosion.h
-
-1405188944 h:\thump\thump\src\engine\lensflare.h
-
-1405188944 h:\thump\thump\src\engine\lightning.h
-
-1405188945 source:h:\thump\thump\src\engine\rendersky.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\rendertext.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\renderva.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\server.cpp
-	"engine.h"
-	"shellapi.h"
-
-1405188945 source:h:\thump\thump\src\engine\serverbrowser.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\shader.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\sound.cpp
-	"engine.h"
-	"SDL2_mixer/SDL_mixer.h"
-	"SDL_mixer.h"
-	<wchar.h>
-	<unistd.h>
-	<sys/types.h>
-	<sys/stat.h>
-	<sys/mman.h>
-	<fcntl.h>
-	<wchar.h>
-
-1405188945 source:h:\thump\thump\src\engine\stain.cpp
-	"engine.h"
-
-1405188945 source:h:\thump\thump\src\engine\texture.cpp
+1405264214 source:f:\op-newcodebase\src\engine\texture.cpp
 	"engine.h"
 	"SDL2_image/SDL_image.h"
 	"SDL_image.h"
@@ -2960,82 +2196,84 @@
 	"scale.h"
 	"scale.h"
 
-1404996214 h:\thump\thump\src\include\sdl_image.h
+1405264214 f:\op-newcodebase\src\include\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
 	"close_code.h"
 
-1405188945 h:\thump\thump\src\engine\scale.h
+1405264216 f:\op-newcodebase\src\engine\scale.h
 
-1405188945 source:h:\thump\thump\src\engine\ui.cpp
+1405264216 source:f:\op-newcodebase\src\engine\ui.cpp
 	"engine.h"
 	"textedit.h"
 
-1405188945 h:\thump\thump\src\engine\textedit.h
+1405264216 f:\op-newcodebase\src\engine\textedit.h
 
-1405188946 source:h:\thump\thump\src\engine\water.cpp
+1405264216 source:f:\op-newcodebase\src\engine\water.cpp
 	"engine.h"
 
-1405188946 source:h:\thump\thump\src\engine\world.cpp
+1405264216 source:f:\op-newcodebase\src\engine\world.cpp
 	"engine.h"
 
-1405188946 source:h:\thump\thump\src\engine\worldio.cpp
+1405264216 source:f:\op-newcodebase\src\engine\worldio.cpp
 	"engine.h"
 
-1405077588 source:h:\thump\thump\src\game\ai.cpp
+1405365174 source:f:\op-newcodebase\src\game\ai.cpp
 	"game.h"
 
-1405285481 h:\thump\thump\src\game\game.h
+1405418806 f:\op-newcodebase\src\game\game.h
 	"cube.h"
 	"ai.h"
 
-1405244223 source:h:\thump\thump\src\game\client.cpp
+1405264218 f:\op-newcodebase\src\game\ai.h
+
+1405412590 source:f:\op-newcodebase\src\game\client.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 
-1404996218 h:\thump\thump\src\game\ctf.h
+1405264218 f:\op-newcodebase\src\game\ctf.h
 
-1405242856 source:h:\thump\thump\src\game\entities.cpp
+1405264218 source:f:\op-newcodebase\src\game\entities.cpp
 	"game.h"
 
-1405167402 source:h:\thump\thump\src\game\game.cpp
+1405365150 source:f:\op-newcodebase\src\game\game.cpp
 	"game.h"
 
-1405021816 source:h:\thump\thump\src\game\render.cpp
+1405264218 source:f:\op-newcodebase\src\game\render.cpp
 	"game.h"
 
-1404996218 source:h:\thump\thump\src\game\scoreboard.cpp
+1405264218 source:f:\op-newcodebase\src\game\scoreboard.cpp
 	"game.h"
 
-1405000648 source:h:\thump\thump\src\game\server.cpp
+1405412578 source:f:\op-newcodebase\src\game\server.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 	"extinfo.h"
 	"aiman.h"
 
-1404996218 h:\thump\thump\src\game\extinfo.h
+1405264218 f:\op-newcodebase\src\game\extinfo.h
 
-1404996218 h:\thump\thump\src\game\aiman.h
+1405264218 f:\op-newcodebase\src\game\aiman.h
 
-1404996218 source:h:\thump\thump\src\game\waypoint.cpp
+1405264218 source:f:\op-newcodebase\src\game\waypoint.cpp
 	"game.h"
 
-1405181151 source:h:\thump\thump\src\game\weapon.cpp
+1405414608 source:f:\op-newcodebase\src\game\weapon.cpp
 	"game.h"
 
-1404996218 source:h:\thump\thump\src\shared\crypto.cpp
+1405264218 source:f:\op-newcodebase\src\shared\crypto.cpp
 	"cube.h"
 
-1404996218 source:h:\thump\thump\src\shared\geom.cpp
+1405264218 source:f:\op-newcodebase\src\shared\geom.cpp
 	"cube.h"
 
-1404996218 source:h:\thump\thump\src\shared\glemu.cpp
+1405264218 source:f:\op-newcodebase\src\shared\glemu.cpp
 	"cube.h"
 
-1404996218 source:h:\thump\thump\src\shared\stream.cpp
+1405264218 source:f:\op-newcodebase\src\shared\stream.cpp
 	"cube.h"
 	<shlobj.h>
 	<unistd.h>
@@ -3043,15 +2281,19 @@
 	<sys/types.h>
 	<dirent.h>
 
-1404996218 source:h:\thump\thump\src\shared\tools.cpp
+1405264218 source:f:\op-newcodebase\src\shared\tools.cpp
 	"cube.h"
 
-1404996218 source:h:\thump\thump\src\shared\zip.cpp
+1405264218 source:f:\op-newcodebase\src\shared\zip.cpp
 	"cube.h"
 
-1404996218 source:h:\thump\thump\src\vcpp\mingw.rc
+1405264218 source:f:\op-newcodebase\src\vcpp\mingw.rc
 	"tesseract.rc"
 
-1404996218 h:\thump\thump\src\vcpp\tesseract.rc
+1405264218 f:\op-newcodebase\src\vcpp\tesseract.rc
 	"winresrc.h"
+
+1405418806 source:f:\op-newcodebase\src\game\game.h
+	"cube.h"
+	"ai.h"
 

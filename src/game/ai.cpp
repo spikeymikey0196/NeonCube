@@ -392,7 +392,7 @@ namespace ai
 
     bool hasgoodammo(gameent *d)
     {
-        static const int goodguns[] = { GUN_PULSE, GUN_RAIL };
+        static const int goodguns[] = { GUN_PULSE, GUN_RAIL, GUN_MACH };
         loopi(sizeof(goodguns)/sizeof(goodguns[0])) if(d->hasammo(goodguns[0])) return true;
         return false;
     }
@@ -1120,7 +1120,7 @@ namespace ai
         gameent *e = getclient(d->ai->enemy);
         if(!d->hasammo(d->gunselect) || !hasrange(d, e, d->gunselect) || (d->gunselect != d->ai->weappref && (!isgoodammo(d->gunselect) || d->hasammo(d->ai->weappref))))
         {
-            static const int gunprefs[] = { GUN_PULSE, GUN_RAIL, GUN_MACH };
+            static const int gunprefs[] = { GUN_PULSE, GUN_RAIL };
             int gun = -1;
             if(d->hasammo(d->ai->weappref) && hasrange(d, e, d->ai->weappref)) gun = d->ai->weappref;
             else
