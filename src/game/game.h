@@ -101,7 +101,8 @@ enum
     M_RAIL       = 1<<7,
     M_PULSE      = 1<<8,
     M_MACH      = 1<<9,
-    M_ALL       = 1<<10
+    M_ALL       = 1<<10,
+    M_TEST       = 1<<11
 };
 
 static struct gamemodeinfo
@@ -121,6 +122,7 @@ static struct gamemodeinfo
     { "pctf", "pCTF", M_CTF | M_TEAM | M_PULSE, "Pulse Rifle Capture The Flag:\nCapture \fs\f3the enemy flag\fr and bring it back to \fs\f1your flag\fr to score points for \fs\f1your team\fr." },
     { "dm", "DM", M_LOBBY | M_ALL, "Deathmatch:\nFrag everyone to score points." },
     { "tdm", "TDM", M_TEAM | M_ALL, "Team Deathmatch:\nIn teams, frag everyone to score points." },
+    { "test", "Test", M_TEST | M_LOCAL | M_EDIT, "Test Map Mode: For test maps only." },
 };
 
 #define STARTGAMEMODE (-1)
@@ -139,6 +141,7 @@ static struct gamemodeinfo
 #define m_pulse        (m_check(gamemode, M_PULSE))
 #define m_mach        (m_check(gamemode, M_MACH))
 #define m_all        (m_check(gamemode, M_ALL))
+#define m_test        (m_check(gamemode, M_TEST))
 
 #define m_demo         (m_check(gamemode, M_DEMO))
 #define m_edit         (m_check(gamemode, M_EDIT))
