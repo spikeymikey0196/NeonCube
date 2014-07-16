@@ -3,9 +3,9 @@ init: net
 init: game
 init: video
 init: gl
-Renderer: GeForce GT 630M/PCIe/SSE2 (NVIDIA Corporation)
-Driver: 4.0.0
-GLSL: 4.00 NVIDIA via Cg compiler
+Renderer: AMD Radeon HD 6310 (ATI Technologies Inc.)
+Driver: 4.0.11417 Core Profile Context
+GLSL: 4.20
 Rendering using the OpenGL GLSL shader path.
 init: console
 init: world
@@ -14,79 +14,3 @@ init: cfg
 unknown alias lookup: testmaps
 init: render
 init: mainloop
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
-unknown command: m_test
