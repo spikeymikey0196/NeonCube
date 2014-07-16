@@ -2994,12 +2994,12 @@
 
 1405264218 h:\thump\thump\src\game\ai.h
 
-1405438709 source:h:\thump\thump\src\game\client.cpp
+1405545835 source:h:\thump\thump\src\game\client.cpp
 	"game.h"
 	"ctf.h"
 	"ctf.h"
 
-1405264218 h:\thump\thump\src\game\ctf.h
+1405545692 h:\thump\thump\src\game\ctf.h
 
 1405438709 source:h:\thump\thump\src\game\entities.cpp
 	"game.h"
@@ -3818,4 +3818,8 @@
 
 1405538518 source:c:\users\byron kellett\documents\github\tess-thump\thump\src\shared\zip.cpp
 	"cube.h"
+
+1405442914 source:h:\thump\thump\src\game\game.h
+	"cube.h"
+	"ai.h"
 

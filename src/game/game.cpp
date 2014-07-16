@@ -17,6 +17,7 @@ namespace game
     ICOMMAND(clientfrags, "", (), intret(player1->frags));
     ICOMMAND(clientversion, "", (), intret(1))
     ICOMMAND(clientdeaths, "", (), intret(player1->deaths));
+    ICOMMAND(clientteam, "", (), intret(player1->team));
     ICOMMAND(clientammo, "", (), intret(player1->ammo[player1->gunselect]));
 
     int following = -1;

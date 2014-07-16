@@ -3,9 +3,9 @@ init: net
 init: game
 init: video
 init: gl
-Renderer: AMD Radeon HD 6310 (ATI Technologies Inc.)
-Driver: 4.0.11417 Core Profile Context
-GLSL: 4.20
+Renderer: GeForce GT 630M/PCIe/SSE2 (NVIDIA Corporation)
+Driver: 4.0.0
+GLSL: 4.00 NVIDIA via Cg compiler
 Rendering using the OpenGL GLSL shader path.
 init: console
 init: world
@@ -14,3 +14,18 @@ init: cfg
 unknown alias lookup: testmaps
 init: render
 init: mainloop
+read map media\map\otoverhaul.ogz (0.1 seconds)
+otoverhaul by Drag(ing)on and unnamed
+game mode is DM
+Deathmatch:
+Frag everyone to score points.
+read map media\map\otoverhaul.ogz (0.1 seconds)
+otoverhaul by Drag(ing)on and unnamed
+game mode is TDM
+Team Deathmatch:
+In teams, frag everyone to score points.
+you suicided!
+unnamed switched to team rojo
+unnamed switched to team azul
+unnamed switched to team rojo
+unnamed switched to team azul
