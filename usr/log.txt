@@ -13,3 +13,8 @@ init: sound
 init: cfg
 init: render
 init: mainloop
+read map media\map\otoverhaul.ogz (0.1 seconds)
+otoverhaul by Drag(ing)on and unnamed
+game mode is Edit
+Cooperative Editing:
+Edit maps with multiple players simultaneously.
