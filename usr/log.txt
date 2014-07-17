@@ -11,6 +11,5 @@ init: console
 init: world
 init: sound
 init: cfg
-unknown alias lookup: testmaps
 init: render
 init: mainloop
