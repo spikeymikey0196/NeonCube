@@ -3,6 +3,8 @@
 #################
 oldcode/
 *.o
+.o
+*.gch
 *.pydevproject
 .project
 .metadata

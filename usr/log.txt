@@ -14,16 +14,3 @@ init: cfg
 unknown alias lookup: testmaps
 init: render
 init: mainloop
-201
-201
-read map media\map\otoverhaul.ogz (0.1 seconds)
-otoverhaul by Drag(ing)on and unnamed
-game mode is rTDM
-Railgun Team Deathmatch:
-Frag the enemy team with railguns to score points for your team.
-15883
-15883
-15883
-unknown alias lookup: clientmaptimew
-
-15883

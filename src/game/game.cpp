@@ -10,6 +10,7 @@ namespace game
     vector<gameent *> players;       // other clients
 
     // all the THUMP HUD binds
+    ICOMMAND(clientversion, "", (), intret(1))
     ICOMMAND(clienthealth, "", (), intret(player1->health));
     ICOMMAND(clientcrouching, "", (), intret(player1->crouching));
     ICOMMAND(clientjumping, "", (), intret(player1->jumping));
