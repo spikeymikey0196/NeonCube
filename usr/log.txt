@@ -14,18 +14,16 @@ init: cfg
 unknown alias lookup: testmaps
 init: render
 init: mainloop
+201
+201
 read map media\map\otoverhaul.ogz (0.1 seconds)
 otoverhaul by Drag(ing)on and unnamed
-game mode is DM
-Deathmatch:
-Frag everyone to score points.
-read map media\map\otoverhaul.ogz (0.1 seconds)
-otoverhaul by Drag(ing)on and unnamed
-game mode is TDM
-Team Deathmatch:
-In teams, frag everyone to score points.
-you suicided!
-unnamed switched to team rojo
-unnamed switched to team azul
-unnamed switched to team rojo
-unnamed switched to team azul
+game mode is rTDM
+Railgun Team Deathmatch:
+Frag the enemy team with railguns to score points for your team.
+15883
+15883
+15883
+unknown alias lookup: clientmaptimew
+
+15883
