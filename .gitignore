@@ -1,6 +1,8 @@
 #################
 ## Eclipse
 #################
+music/*.ogg
+music/*.mp3
 oldcode/
 *.o
 .o
