@@ -516,6 +516,15 @@ namespace game
         int gun = attacks[atk].gun;
         switch(atk)
         {
+            case ATK_MACH_SHOOT:
+                particle_splash(PART_SPARK, 200, 250, to, 0x50CFE5, 0.45f);
+                particle_flare(hudgunorigin(gun, from, to, d), to, 500, PART_RAIL_TRAIL, 0x50CFE5, 0.5f);
+                if(d->muzzle.x >= 0)
+                    particle_flare(d->muzzle, d->muzzle, 140, PART_RAIL_MUZZLE_FLASH, 0x50CFE5, 2.75f, d);
+                adddynlight(hudgunorigin(gun, d->o, to, d), 35, vec(0.25f, 0.75f, 1.0f), 75, 75, DL_FLASH, 0, vec(0, 0, 0), d);
+                if(!local) railhit(from, to);
+                break;
+
             case ATK_PULSE_SHOOT:
                 if(d->muzzle.x >= 0)
                     particle_flare(d->muzzle, d->muzzle, 140, PART_PULSE_MUZZLE_FLASH, 0x50CFE5, 3.50f, d);

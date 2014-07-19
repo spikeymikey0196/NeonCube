@@ -675,7 +675,7 @@ namespace game
             }
         }
     }
-    ICOMMAND(suicide, "", (), suicide(player1));
+    ICOMMAND(kill, "", (), suicide(player1));
 
     bool needminimap() { return m_ctf; }
 

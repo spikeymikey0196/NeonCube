@@ -201,7 +201,7 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
     }
     if(mapshot || mapname)
     {
-        float infowidth = 14*FONTH, sz = 0.35f*min(w, h), msz = (0.85f*min(w, h) - sz)/(infowidth + FONTH), x = 0.5f*w, y = ly+lh - sz/15, mx = 0, my = 0, mw = 0, mh = 0;
+        float infowidth = 14*FONTH, sz = 0.35f*min(w, h), msz = (0.85f*min(w, h) - sz)/(infowidth + FONTH), x = 0.5f*w, y = 400 - sz/15, mx = 0, my = 0, mw = 0, mh = 0;
         if(mapinfo)
         {
             text_boundsf(mapinfo, mw, mh, infowidth);
@@ -214,9 +214,8 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
         }
         if(mapshot && mapshot!=notexture)
         {
-            x -= 0.5f*sz;
             glBindTexture(GL_TEXTURE_2D, mapshot->id);
-            bgquad(x, y, sz, sz);
+            bgquad(0, 0, screenw * 1.5, screenh * 1.5);
         }
         if(mapname)
         {
@@ -225,7 +224,8 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
             hudmatrix.translate(x+mx+tx, y, 0);
             hudmatrix.scale(tsz, tsz, 1);
             flushhudmatrix();
-            draw_text(mapname, 0, 0);
+            draw_text(mapname, 20, 0);
+            draw_textf("Loading...", 20, -60);
             pophudmatrix();
             my = 1.5f*FONTH*tsz;
         }
