@@ -1,7 +1,6 @@
 // main.cpp: initialisation & main loop
 
 #include "engine.h"
-
 extern void cleargamma();
 
 void cleanup()
@@ -145,6 +144,11 @@ void bgquad(float x, float y, float w, float h, float tx = 0, float ty = 0, floa
     gle::end();
 }
 
+// possible diff backgrounds
+int done = 0;
+int random;
+const char *texname;
+
 void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, const char *mapname, const char *mapinfo)
 {
     static int lastupdate = -1, lastw = -1, lasth = -1;
@@ -167,8 +171,23 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
     gle::defvertex(2);
     gle::deftexcoord0();
 
+    if (done == 0) {
+        random = rnd(4);
+        done = 1;
+        if (random == 0) {
+            texname = "media/interface/background/bg_0.png";
+        } else if (random == 1) {
+            texname = "media/interface/background/bg_1.png";
+        } else if (random == 2) {
+            texname = "media/interface/background/bg_2.png";
+        } else if (random == 3) {
+            texname = "media/interface/background/bg_3.png";
+        } else if (random == 4) {
+            texname = "media/interface/background/bg_4.png";
+        }
+    }
     gle::colorf(1, 1, 1);
-    settexture("media/interface/background.png", 0);
+    settexture(texname, 0);
     float bu = w*0.67f/256.0f, bv = h*0.67f/256.0f;
     bgquad(0, 0, w, h, backgroundu, backgroundv, bu, bv);
 
