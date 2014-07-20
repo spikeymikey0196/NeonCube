@@ -449,12 +449,12 @@ namespace game
     }
     COMMAND(clearbans, "");
 
-    void kick(const char *victim, const char *reason)
+    void ban(const char *victim, const char *reason)
     {
         int vn = parseplayer(victim);
         if(vn>=0 && vn!=player1->clientnum) addmsg(N_KICK, "ris", vn, reason);
     }
-    COMMAND(kick, "ss");
+    COMMAND(ban, "ss");
 
     void authkick(const char *desc, const char *victim, const char *reason)
     {

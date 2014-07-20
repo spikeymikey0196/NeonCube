@@ -206,18 +206,6 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
 
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-    if(caption)
-    {
-        int tw = text_width(caption);
-        float tsz = 0.04f*min(w, h)/FONTH,
-              tx = 0.5f*(w - tw*tsz), ty = h - 0.075f*1.5f*min(w, h) - FONTH*tsz;
-        pushhudmatrix();
-        hudmatrix.translate(tx, ty, 0);
-        hudmatrix.scale(tsz, tsz, 1);
-        flushhudmatrix();
-        draw_text(caption, 0, 0);
-        pophudmatrix();
-    }
     if(mapshot || mapname)
     {
         float infowidth = 14*FONTH, sz = 0.35f*min(w, h), msz = (0.85f*min(w, h) - sz)/(infowidth + FONTH), x = 0.5f*w, y = 400 - sz/15, mx = 0, my = 0, mw = 0, mh = 0;
@@ -238,23 +226,14 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
         }
         if(mapname)
         {
-            float tw = text_widthf(mapname), tsz = sz/(8*FONTH), tx = max(0.5f*(mw*msz - tw*tsz), 0.0f);
+            int tw = text_width(caption);
+            float tsz = 0.04f*min(w, h)/FONTH,
+                  tx = 0.5f*(w - tw*tsz), ty = h - 0.075f*1.5f*min(w, h) - FONTH*tsz;
             pushhudmatrix();
-            hudmatrix.translate(x+mx+tx, y, 0);
+            hudmatrix.translate(tx, ty, 0);
             hudmatrix.scale(tsz, tsz, 1);
             flushhudmatrix();
-            draw_text(mapname, 20, 0);
-            draw_textf("Loading...", 20, -60);
-            pophudmatrix();
-            my = 1.5f*FONTH*tsz;
-        }
-        if(mapinfo)
-        {
-            pushhudmatrix();
-            hudmatrix.translate(x+mx, y+my, 0);
-            hudmatrix.scale(msz, msz, 1);
-            flushhudmatrix();
-            draw_text(mapinfo, 0, 0, 0xFF, 0xFF, 0xFF, 0xFF, -1, infowidth);
+            draw_text(mapname, 0, 0);
             pophudmatrix();
         }
     }
