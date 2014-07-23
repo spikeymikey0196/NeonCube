@@ -1,7 +1,7 @@
 THUMP
 ====
 
-THUMP is a fork of Tesseract, designed to make a more interesting and exciting game. Tesseract is itself is a mod of Cube 2, a first person shooter with new assets. However, Tesseract is more of an impressive tech demo than a finished game. This is what THUMP aims to fix.
+THUMP is a fork of Tesseract, designed to make a more interesting and exciting game. Tesseract is itself is a mod of Cube 2, a first person shooter with new assets. However, Tesseract, while elegant, is more of an impressive tech demo than a finished game at the moment (I'm sure it will get more content, but it does lack content at this time). This is what THUMP aims to fix.
 
 
 ##Features
