@@ -555,7 +555,7 @@ namespace game
             cmode->setup();
         }
 
-        conoutf(CON_GAMEINFO, "\f2game mode is %s", server::modeprettyname(gamemode));
+        conoutf(CON_GAMEINFO, "\f2The game mode is %s", server::modeprettyname(gamemode));
 
         const char *info = m_valid(gamemode) ? gamemodes[gamemode - STARTGAMEMODE].info : NULL;
         if(showmodeinfo && info) conoutf(CON_GAMEINFO, "\f0%s", info);
@@ -681,7 +681,7 @@ namespace game
 
     void drawicon(int icon, float x, float y, float sz)
     {
-        settexture("media/interface/hud/items.png");
+        settexture("media/interface/flags.png");
         float tsz = 0.25f, tx = tsz*(icon%4), ty = tsz*(icon/4);
         gle::defvertex(2);
         gle::deftexcoord0();
