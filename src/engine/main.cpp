@@ -146,7 +146,6 @@ void bgquad(float x, float y, float w, float h, float tx = 0, float ty = 0, floa
 
 // possible diff backgrounds
 int done = 0;
-int random;
 const char *texname;
 
 void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, const char *mapname, const char *mapinfo)
@@ -172,19 +171,20 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
     gle::deftexcoord0();
 
     if (done == 0) {
+        int random = int(rnd(4));
         texname = "media/interface/background/bg_0.png";
         done = 1;
-        //if (random == 0) {
-        //    texname = "media/interface/background/bg_0.png";
-        //} else if (random == 1) {
-        //    texname = "media/interface/background/bg_1.png";
-        //} else if (random == 2) {
-        //    texname = "media/interface/background/bg_2.png";
-        //} else if (random == 3) {
-        //    texname = "media/interface/background/bg_3.png";
-        //} else if (random == 4) {
-        //    texname = "media/interface/background/bg_4.png";
-        //}
+        if (random == 0) {
+            texname = "media/interface/background/bg_0.png";
+        } else if (random == 1) {
+            texname = "media/interface/background/bg_1.png";
+        } else if (random == 2) {
+            texname = "media/interface/background/bg_2.png";
+        } else if (random == 3) {
+            texname = "media/interface/background/bg_3.png";
+        } else if (random == 4) {
+            texname = "media/interface/background/bg_4.png";
+        }
     }
     gle::colorf(1, 1, 1);
     settexture(texname, 0);
@@ -208,7 +208,7 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
 
     if(mapshot || mapname)
     {
-        float infowidth = 14*FONTH, sz = 0.35f*min(w, h), msz = (0.85f*min(w, h) - sz)/(infowidth + FONTH), x = 0.5f*w, y = 400 - sz/15, mx = 0, my = 0, mw = 0, mh = 0;
+        float infowidth = 14*FONTH, sz = 0.35f*min(w, h), msz = (0.85f*min(w, h) - sz)/(infowidth + FONTH), x = 0.5f*w, mx = 0, mw = 0, mh = 0;
         if(mapinfo)
         {
             text_boundsf(mapinfo, mw, mh, infowidth);
