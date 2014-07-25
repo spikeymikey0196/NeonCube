@@ -172,19 +172,19 @@ void renderbackgroundview(int w, int h, const char *caption, Texture *mapshot, c
     gle::deftexcoord0();
 
     if (done == 0) {
-        random = rnd(4);
+        texname = "media/interface/background/bg_0.png";
         done = 1;
-        if (random == 0) {
-            texname = "media/interface/background/bg_0.png";
-        } else if (random == 1) {
-            texname = "media/interface/background/bg_1.png";
-        } else if (random == 2) {
-            texname = "media/interface/background/bg_2.png";
-        } else if (random == 3) {
-            texname = "media/interface/background/bg_3.png";
-        } else if (random == 4) {
-            texname = "media/interface/background/bg_4.png";
-        }
+        //if (random == 0) {
+        //    texname = "media/interface/background/bg_0.png";
+        //} else if (random == 1) {
+        //    texname = "media/interface/background/bg_1.png";
+        //} else if (random == 2) {
+        //    texname = "media/interface/background/bg_2.png";
+        //} else if (random == 3) {
+        //    texname = "media/interface/background/bg_3.png";
+        //} else if (random == 4) {
+        //    texname = "media/interface/background/bg_4.png";
+        //}
     }
     gle::colorf(1, 1, 1);
     settexture(texname, 0);
