@@ -298,8 +298,8 @@ struct serverinfo : servinfo
     {
         if(address.host == ENET_HOST_ANY) return "[unknown host]";
         if(ping == WAITING) return "[waiting for response]";
-        if(protocol < currentprotocol) return "[older protocol]";
-        if(protocol > currentprotocol) return "[newer protocol]";
+        if(protocol < currentprotocol) return "This server requires an old version of THUMP.";
+        if(protocol > currentprotocol) return "This server requires a newer version of THUMP.";
         return NULL;
     }
 
