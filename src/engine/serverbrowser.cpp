@@ -297,8 +297,8 @@ struct serverinfo : servinfo
     const char *status() const
     {
         if(address.host == ENET_HOST_ANY) return "[unknown host]";
-        if(ping == WAITING) return "[waiting for response]";
-        if(protocol < currentprotocol) return "This server requires an old version of THUMP.";
+        if(ping == WAITING) return "Finding information...";
+        if(protocol < currentprotocol) return "This server requires Tesseract.";
         if(protocol > currentprotocol) return "This server requires a newer version of THUMP.";
         return NULL;
     }
