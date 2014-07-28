@@ -36,6 +36,9 @@ The system requirements for Windows are:
 
 It may work on other machines, but I haven't tried it.
 
+##Binaries
+There is a binary available for Windows now!
+
 ##Source Code
 The source is licenced under the ZLIB licence.
 
