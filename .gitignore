@@ -3,6 +3,7 @@
 #################
 addons2/
 usr/oldmedia/
+src/vcpp/.objs/*.*
 music/*.ogg
 music/*.mp3
 oldcode/

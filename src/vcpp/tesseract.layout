@@ -1,104 +1,114 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="client64" />
-	<File name="..\engine\main.cpp" open="1" top="1" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<ActiveTarget name="All" />
+	<File name="..\game\client.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="7166" topLine="195" />
+			<Cursor1 position="45779" topLine="1289" />
 		</Cursor>
 	</File>
-	<File name="..\shared\command.h" open="1" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="9666" topLine="298" />
-		</Cursor>
-	</File>
-	<File name="..\engine\worldio.cpp" open="1" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="23860" topLine="676" />
-		</Cursor>
-	</File>
-	<File name="..\engine\physics.cpp" open="1" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="63344" topLine="1858" />
-		</Cursor>
-	</File>
-	<File name="..\game\game.cpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="15233" topLine="484" />
-		</Cursor>
-	</File>
-	<File name="..\game\game.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="7358" topLine="159" />
-		</Cursor>
-	</File>
-	<File name="..\game\client.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="14888" topLine="446" />
-		</Cursor>
-	</File>
-	<File name="..\engine\rendergl.cpp" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\engine\rendergl.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="21522" topLine="435" />
 		</Cursor>
 	</File>
-	<File name="..\engine\animmodel.h" open="1" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1133" topLine="34" />
-		</Cursor>
-	</File>
-	<File name="..\game\ctf.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\game\ctf.h" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="10014" topLine="368" />
 		</Cursor>
 	</File>
-	<File name="..\shared\tools.h" open="1" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\game\server.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2073" topLine="96" />
+			<Cursor1 position="121219" topLine="3578" />
 		</Cursor>
 	</File>
-	<File name="..\shared\iengine.h" open="1" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="14083" topLine="322" />
-		</Cursor>
-	</File>
-	<File name="..\engine\renderparticles.cpp" open="1" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\engine\renderparticles.cpp" open="0" top="0" tabpos="15" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="24302" topLine="846" />
 		</Cursor>
 	</File>
-	<File name="..\shared\zip.cpp" open="1" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\shared\tools.h" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="12064" topLine="397" />
+			<Cursor1 position="2073" topLine="96" />
 		</Cursor>
 	</File>
-	<File name="..\game\weapon.cpp" open="1" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\engine\main.cpp" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="5365" topLine="182" />
+		</Cursor>
+	</File>
+	<File name="..\game\weapon.cpp" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="18357" topLine="515" />
 		</Cursor>
 	</File>
-	<File name="..\engine\rendertext.cpp" open="1" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\shared\zip.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12064" topLine="397" />
+		</Cursor>
+	</File>
+	<File name="..\engine\rendertext.cpp" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="4131" topLine="188" />
 		</Cursor>
 	</File>
-	<File name="..\engine\client.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="430" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="..\engine\console.cpp" open="1" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="4400" topLine="167" />
-		</Cursor>
-	</File>
-	<File name="..\engine\server.cpp" open="1" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\engine\server.cpp" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="16911" topLine="440" />
 		</Cursor>
 	</File>
-	<File name="..\engine\stain.cpp" open="1" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="..\engine\serverbrowser.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="7656" topLine="528" />
+		</Cursor>
+	</File>
+	<File name="..\shared\command.h" open="0" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9666" topLine="298" />
+		</Cursor>
+	</File>
+	<File name="..\engine\animmodel.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1133" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="..\engine\stain.cpp" open="0" top="0" tabpos="12" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="20840" topLine="642" />
+		</Cursor>
+	</File>
+	<File name="..\engine\client.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="430" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="..\shared\iengine.h" open="0" top="0" tabpos="13" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14083" topLine="322" />
+		</Cursor>
+	</File>
+	<File name="..\engine\console.cpp" open="0" top="0" tabpos="11" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4400" topLine="167" />
+		</Cursor>
+	</File>
+	<File name="..\engine\worldio.cpp" open="0" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="23860" topLine="676" />
+		</Cursor>
+	</File>
+	<File name="..\engine\physics.cpp" open="0" top="0" tabpos="16" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="63344" topLine="1858" />
+		</Cursor>
+	</File>
+	<File name="..\game\game.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15233" topLine="484" />
+		</Cursor>
+	</File>
+	<File name="..\game\game.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10805" topLine="232" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

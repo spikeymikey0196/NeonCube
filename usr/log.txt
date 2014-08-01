@@ -13,8 +13,20 @@ init: sound
 init: cfg
 init: render
 init: mainloop
-read map media\map\otoverhaul.ogz (0.1 seconds)
-otoverhaul by Drag(ing)on and unnamed
-game mode is Edit
+read map media\map\acidic.ogz (0.0 seconds)
+Now playing: thumpradio
+The game mode is Edit
 Cooperative Editing:
 Edit maps with multiple players simultaneously.
+wrote map file media\map\acidic.ogz
+wrote map file media\map\acidic.ogz
+wrote map file media\map\acidic.ogz
+read map media\map\otoverhaul.ogz (0.2 seconds)
+Now playing: thumpradio
+otoverhaul by Drag(ing)on and unnamed
+The game mode is Edit
+Cooperative Editing:
+Edit maps with multiple players simultaneously.
+showmat ON
+showmat OFF
+wrote map file media\map\otoverhaul.ogz
